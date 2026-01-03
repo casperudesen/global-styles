@@ -358,6 +358,40 @@ section[data-section-type="Emnevisning"] [data-component-type="Card"]:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
+.valuation-cta .btn {
+  font-family: var(--f-body);
+  font-weight: 500;
+  font-size: 1.125rem;
+  padding: 1rem 2.5rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.valuation-cta .btn--primary {
+  background: var(--c-accent);
+  color: #11352f;
+  border: 1px solid var(--c-accent);
+}
+
+.valuation-cta .btn--primary:hover {
+  transform: translateY(-1px);
+}
+
+.valuation-cta .btn--outline {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.valuation-cta .btn--outline:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.45);
+}
 
 /* ===========================================
    AREAS SECTION
