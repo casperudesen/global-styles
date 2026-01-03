@@ -318,6 +318,48 @@ section[data-section-type="Emnevisning"] [data-component-type="Card"]:hover {
 }
 
 /* ===========================================
+   VALUATION CTA
+   =========================================== */
+
+.section-label--accent {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: var(--c-accent);
+  letter-spacing: 0.15em;
+}
+
+.valuation-title {
+  font-family: var(--f-serif);
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  line-height: 1.1;
+  color: #ffffff;
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+}
+
+.valuation-title__accent {
+  color: var(--c-accent);
+  font-style: italic;
+}
+
+.valuation-text {
+  font-family: var(--f-body);
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #e2e8f0;
+  max-width: 42rem;
+  margin: 0 auto 3rem auto;
+  text-align: center;
+}
+
+.valuation-cta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ===========================================
    AREAS SECTION
    =========================================== */
 .areas-section {
