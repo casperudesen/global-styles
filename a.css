@@ -525,6 +525,9 @@ section[data-section-type="Emnevisning"] [data-component-type="Card"]:hover {
 /* ===========================================
    NAVIGATION - LOGO
    =========================================== */
+/* ===========================================
+   NAVIGATION - LOGO
+   =========================================== */
 .fb-nav__logo-wrapper {
   display: flex;
   align-items: center;
@@ -534,29 +537,37 @@ section[data-section-type="Emnevisning"] [data-component-type="Card"]:hover {
   z-index: 10001;
 }
 
-.fb-nav__logo-svg {
+/* Logo mark via mask */
+.fb-nav__logo-mark {
+  width: 28px;
   height: 28px;
-  width: auto;
+  display: inline-block;
+  background-color: #ffffff;
+
+  -webkit-mask-image: url("https://mediaserver.prod.realequity.dk/images/1f41bc90-9230-4d5e-b7e0-88a9bf4f2834/falchbai-icon/xs");
+  mask-image: url("https://mediaserver.prod.realequity.dk/images/1f41bc90-9230-4d5e-b7e0-88a9bf4f2834/falchbai-icon/xs");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }
 
 @media (min-width: 769px) {
-  .fb-nav__logo-svg {
+  .fb-nav__logo-mark {
+    width: 36px;
     height: 36px;
   }
 }
 
-.fb-nav__logo-svg path {
-  fill: #ffffff;
-  transition: fill 0.3s ease;
-}
-
+/* Text logo */
 .fb-nav__logo {
   font-family: var(--f-serif);
   font-size: 1.125rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
-  text-decoration: none;
   transition: color 0.3s ease;
 }
 
@@ -569,9 +580,7 @@ section[data-section-type="Emnevisning"] [data-component-type="Card"]:hover {
 
 .fb-nav__logo-accent {
   color: var(--c-accent);
-  transition: color 0.3s ease;
 }
-
 /* ===========================================
    NAVIGATION - DESKTOP LINKS
    =========================================== */
