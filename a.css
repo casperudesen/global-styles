@@ -619,6 +619,7 @@ section[data-section-type="Emnevisning"] [data-component-type="Card"]:hover {
   height: 28px;
   display: inline-block;
   background-color: #ffffff;
+  transition: background-color 0.3s ease;
 
   -webkit-mask-image: url("https://mediaserver.prod.realequity.dk/images/1f41bc90-9230-4d5e-b7e0-88a9bf4f2834/falchbai-icon/xs");
   mask-image: url("https://mediaserver.prod.realequity.dk/images/1f41bc90-9230-4d5e-b7e0-88a9bf4f2834/falchbai-icon/xs");
@@ -656,6 +657,12 @@ section[data-section-type="Emnevisning"] [data-component-type="Card"]:hover {
 
 .fb-nav__logo-accent {
   color: var(--c-accent);
+}
+.fb-nav.fb-nav--scrolled .fb-nav__logo-mark {
+  background-color: var(--c-accent);
+}
+.fb-nav.fb-nav--open .fb-nav__logo-mark {
+  background-color: #ffffff;
 }
 /* ===========================================
    NAVIGATION - DESKTOP LINKS
