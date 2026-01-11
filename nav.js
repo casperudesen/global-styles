@@ -1,4 +1,7 @@
 (function () {
+  // ---------------------------------------------------------
+  // 1. Hjælpefunktioner til URL og aktive links
+  // ---------------------------------------------------------
   function normalizePath(p) {
     return (p || "/").split("?")[0].split("#")[0].replace(/\/+$/, "") || "/";
   }
@@ -10,10 +13,13 @@
   }
 
   function setActiveLinks() {
+    const nav = document.getElementById("fb-nav");
+    if (!nav) return; // Kan ikke sætte links, hvis nav ikke er der
+
     const current = normalizePath(window.location.pathname);
 
     // Desktop links
-    document.querySelectorAll("#fb-nav .fb-nav__link").forEach((a) => {
+    nav.querySelectorAll(".fb-nav__link").forEach((a) => {
       const target = a.getAttribute("href") || "/";
       const active = isActiveTarget(current, target);
 
@@ -23,7 +29,7 @@
     });
 
     // Mobile links
-    document.querySelectorAll("#fb-nav .fb-nav__mobile-link").forEach((a) => {
+    nav.querySelectorAll(".fb-nav__mobile-link").forEach((a) => {
       const target = a.getAttribute("href") || "/";
       const active = isActiveTarget(current, target);
 
@@ -33,77 +39,104 @@
     });
   }
 
+  // ---------------------------------------------------------
+  // 2. Interaktioner (Event Delegation - Den vigtige rettelse!)
+  // ---------------------------------------------------------
   function initNavInteractions() {
-    const nav = document.getElementById("fb-nav");
-    const toggle = document.getElementById("fb-nav-toggle");
-    if (!nav || !toggle) return;
+    // SIKRING: Kør kun denne funktion én gang globalt
+    if (window.fbNavInteractionsBound) return;
+    window.fbNavInteractionsBound = true;
 
-    // Prevent double-binding
-    if (nav.dataset.fbBound === "1") return;
-    nav.dataset.fbBound = "1";
+    // A. Klik på Burger-knappen (Delegeret event)
+    document.addEventListener("click", function (e) {
+      // Tjek om klikket ramte #fb-nav-toggle eller noget inden i den
+      const toggle = e.target.closest("#fb-nav-toggle");
+      
+      if (toggle) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const nav = document.getElementById("fb-nav");
+        if (nav) {
+          const isOpen = nav.classList.toggle("fb-nav--open");
+          document.body.classList.toggle("fb-menu-open", isOpen);
+        }
+      }
+    });
 
-    function handleScroll() {
-      if (!nav.classList.contains("fb-nav--open")) {
+    // B. Klik på links i mobilmenuen (Luk menuen efter klik)
+    document.addEventListener("click", function (e) {
+      const link = e.target.closest("#fb-nav .fb-nav__mobile-link");
+      
+      if (link) {
+        const nav = document.getElementById("fb-nav");
+        if (nav) {
+          nav.classList.remove("fb-nav--open");
+          document.body.classList.remove("fb-menu-open");
+        }
+      }
+    });
+
+    // C. Scroll effekt (Tjekker dynamisk om nav findes)
+    window.addEventListener("scroll", function() {
+      const nav = document.getElementById("fb-nav");
+      // Kun kør logik hvis nav findes og ikke er åben
+      if (nav && !nav.classList.contains("fb-nav--open")) {
         nav.classList.toggle("fb-nav--scrolled", window.scrollY > 50);
       }
-    }
+    }, { passive: true });
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll();
-
-    toggle.addEventListener("click", function (e) {
-      e.preventDefault();
-      e.stopPropagation();
-      const isOpen = nav.classList.toggle("fb-nav--open");
-      document.body.classList.toggle("fb-menu-open", isOpen);
-    });
-
-    document.querySelectorAll("#fb-nav .fb-nav__mobile-link").forEach((link) => {
-      link.addEventListener("click", function () {
-        nav.classList.remove("fb-nav--open");
-        document.body.classList.remove("fb-menu-open");
-      });
-    });
-
+    // D. Escape tast (Luk menu)
     document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape" && nav.classList.contains("fb-nav--open")) {
-        nav.classList.remove("fb-nav--open");
-        document.body.classList.remove("fb-menu-open");
+      if (e.key === "Escape") {
+        const nav = document.getElementById("fb-nav");
+        if (nav && nav.classList.contains("fb-nav--open")) {
+          nav.classList.remove("fb-nav--open");
+          document.body.classList.remove("fb-menu-open");
+        }
       }
     });
   }
 
+  // ---------------------------------------------------------
+  // 3. Initialisering (Venter på injector)
+  // ---------------------------------------------------------
   function initOnceNavExists() {
-    // Only run when injected nav is actually in DOM
+    // Vi starter event listeners med det samme (de behøver ikke vente)
+    initNavInteractions();
+
+    // Vi tjekker om elementet er kommet, så vi kan sætte "Active" klasser
     const nav = document.getElementById("fb-nav");
     if (!nav) return false;
 
     setActiveLinks();
-    initNavInteractions();
     return true;
   }
 
   function initWithRetry() {
+    // Forsøg med det samme
     if (initOnceNavExists()) return;
 
-    // Retry a few times in case nav.html is injected async
+    // Hvis den fejler (fordi injectoren er langsom), prøv igen løbende
     let tries = 0;
-    const maxTries = 40; // ~4s at 100ms
+    const maxTries = 50; // 5 sekunder
     const t = setInterval(() => {
       tries += 1;
+      // Hvis det lykkes, eller vi løber tør for forsøg, stop.
       if (initOnceNavExists() || tries >= maxTries) clearInterval(t);
     }, 100);
   }
 
-  // Expose for your injector to call after innerHTML is set
+  // Eksponer init-funktion globalt (hvis din injector vil kalde den manuelt)
   window.fbNavInit = initWithRetry;
 
+  // Start scriptet
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", initWithRetry);
   } else {
     initWithRetry();
   }
 
-  // Re-run active link on SPA style navigation if history changes
+  // Opdater aktive links hvis man bruger browserens frem/tilbage knapper
   window.addEventListener("popstate", () => setActiveLinks());
 })();
