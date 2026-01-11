@@ -352,14 +352,14 @@ header.fixed.top-0 {
 
 .btn--outline {
     background: transparent;
-    color: var(--c-primary) !important;
+    color: var(--c-primary);
     border-color: var(--c-primary);
     box-shadow: none;
 }
 
 .btn--outline:hover {
     background: var(--c-primary);
-    color: var(--c-white) !important;
+    color: var(--c-white);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
