@@ -565,6 +565,12 @@ header.fixed.top-0 {
 .fb-nav__link:hover::after {
     width: 100%;
 }
+.fb-nav__link--active {
+  color: var(--c-accent) !important;
+}
+.fb-nav__link--active::after {
+  width: 100% !important;
+}
 
 .fb-nav__right {
     display: flex;
