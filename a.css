@@ -222,8 +222,8 @@ header.fixed.top-0 {
 /* Mobile Padding System for Dynamic Sections */
 @media (max-width: 1023px) {
     section[data-section-type="DynamicSectionComponent"] {
-        padding-left: 1.25rem;
-        padding-right: 1.25rem;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     section[data-section-type="DynamicSectionComponent"]:first-of-type {
