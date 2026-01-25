@@ -1606,13 +1606,18 @@ form textarea {
 /* Mobile styling for Section 4 (Page 33): Stack Image on top of Text */
 @media (max-width: 767px) {
     /* Target the container that holds the image and text side-by-side */
-    .page-33-section-4 div[data-type="FlowComponent"].flex-row {
+    .page-33-section-4 div[data-type="FlowComponent"].flex-row, .page-30-section-5 div[data-type="FlowComponent"].flex-row {
         flex-direction: column !important;
     }
 
     /* Ensure the image and text blocks take full width on mobile */
-    .page-33-section-4 div[data-type="FlowComponent"].flex-row > div {
+    .page-33-section-4 div[data-type="FlowComponent"].flex-row > div, .page-30-section-5 div[data-type="FlowComponent"].flex-row > div {
         width: 100% !important;
         max-width: 100% !important;
     }
+   .cta-section {
+       position: relative;
+       width: auto;
+       padding: 4rem 1.5rem;
+   }
 }
