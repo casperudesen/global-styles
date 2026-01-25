@@ -139,4 +139,9 @@
 
   // Opdater aktive links hvis man bruger browserens frem/tilbage knapper
   window.addEventListener("popstate", () => setActiveLinks());
+  var originalPushState = history.pushState;
+  history.pushState = function() {
+    originalPushState.apply(this, arguments);
+    setTimeout(setActiveLinks, 100);
+  };
 })();
