@@ -32,6 +32,22 @@ header.fixed.top-0 {
 .lg\:pt-\[100px\] {
     padding-top: 0 !important;
 }
+#DefaultHeader + div[style*="--heightMobile"],
+body .flex.flex-col.pt-\[var\(--heightMobile\)\] {
+    padding-top: 0 !important;
+    --heightMobile: 0px !important;
+    --heightDesktop: 0px !important;
+    --heightMobileVisible: 0px !important;
+    --heightDesktopVisible: 0px !important;
+}
+
+/* Ensure the Tailwind media query classes are also neutralized */
+@media (min-width: 768px) {
+    #DefaultHeader + div.md\:pt-\[var\(--heightDesktop\)\],
+    body .md\:pt-\[var\(--heightDesktop\)\] {
+        padding-top: 0 !important;
+    }
+}
 
 /* ===========================================
    2. TYPOGRAPHY UTILITIES
