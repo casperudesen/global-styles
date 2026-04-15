@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "id": "section_hero",
+        "title": "Hero - Boligviden"
+    },
+    "type": "DynamicSectionComponent",
+    "priority": "1",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "id": "component_22da0d32_b958_4b0c_9b32_fef85f5559fd",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "lg | lg",
+            "padding": "none md | md",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "id": "component_3ac8a5ae_8f72_4176_870b_7d4aaeb3dea3",
+                    "config": {
+                        "html": "<style> .hero-title, .title, .fb-card-title { font-family: 'Playfair Display', serif !important; } .fb-card { background: white; border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); transition: all 0.3s ease; cursor: pointer; display: flex; flex-direction: column; height: 100%; border: 1px solid #f3f4f6; overflow: hidden; } .fb-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.15); } .fb-card-img-wrap { position: relative; aspect-ratio: 4/3; overflow: hidden; } .fb-card-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s ease; } .fb-card:hover .fb-card-img { transform: scale(1.05); } .fb-card-badge { position: absolute; top: 1rem; left: 1rem; background: #11352f; color: white; font-size: 10px; font-weight: 700; padding: 0.25rem 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; } .fb-card-body { padding: 2rem; flex: 1; display: flex; flex-direction: column; } .fb-card-title { font-size: 1.5rem; color: #11352f; margin-bottom: 1rem; line-height: 1.2; } .fb-card:hover .fb-card-title { color: #c19a5b; } .fb-card-desc { color: #4b5563; font-size: 0.875rem; line-height: 1.625; flex: 1; } details.styled-accordion { background: white; border: 1px solid #f3f4f6; border-radius: 4px; overflow: visible !important; margin-bottom: 1rem; transition: box-shadow 0.3s; } .acc-title { font-family: 'Playfair Display', serif; font-size: 1.25rem; color: #11352f; } .acc-content { padding: 0 1.5rem 2rem 4.5rem; color: #4b5563; line-height: 1.7; }</style>"
+                    }
+                },
+                {
+                    "type": "FlowComponent",
+                    "id": "component_546af10b_ff7d_46ff_a698_7d9fb6e19715",
+                    "align": {
+                        "vertical": "center",
+                        "horizontal": "center"
+                    },
+                    "direction": "vertical",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "id": "component_065ccf25_7647_474f_9221_749a0600cbfe",
+                            "config": {
+                                "html": "<span class=\"tag\" style=\"color:#c19a5b; text-transform:uppercase; letter-spacing:0.2em; font-size:0.875rem; font-weight:600; display:block; margin-bottom:1rem;\">Indsigt & Inspiration</span>"
+                            }
+                        },
+                        {
+                            "type": "TypographyComponent",
+                            "id": "component_fbd79930_b74b_43ca_aa52_6b8ab6f030f8",
+                            "justify": "center",
+                            "config": {
+                                "align": "center",
+                                "size": "4xl",
+                                "textColor": "",
+                                "text": "<h1 class=\"hero-title\">Boligviden</h1>",
+                                "title": "Boligviden"
+                            }
+                        },
+                        {
+                            "type": "TypographyComponent",
+                            "id": "component_760bbbec_7d41_4dd7_8190_fe51de89ac49",
+                            "justify": "center",
+                            "config": {
+                                "align": "center",
+                                "size": "lg",
+                                "textColor": "",
+                                "text": "<p class=\"hero-subtitle\">Kend din boligtype – en guide til Danmarks mest populære huse.</p>",
+                                "title": "Undertitel"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "center",
+        "height": "80vh",
+        "bgColor": "transparent",
+        "bgImage": "https://mediaserver.prod.realequity.dk/images/8199d12d-9590-4225-93d2-924d17be3ece/boligviden-3-houses/original",
+        "bgSize": "cover",
+        "customClass": "hero-image-bang",
+        "padding": "none",
+        "margin": "none"
+    },
+    "id": "section_a788aef7_c29a_4f97_ada4_9603b02fae2d"
+}
