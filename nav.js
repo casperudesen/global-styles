@@ -4,8 +4,8 @@
   // ============================================
   // VERSION CONTROL - CHANGE ONLY HERE
   // ============================================
-  var VERSION = "v1.0.6";
-  var BASE = "https://cdn.jsdelivr.net/gh/casperudesen/global-styles@main";
+  var VERSION = "v1.0.7";
+  var BASE = "https://cdn.jsdelivr.net/gh/casperudesen/global-styles@v1.0.7";
   var DEBUG = false;
 
   // ============================================
