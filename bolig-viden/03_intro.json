@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "id": "section_intro",
+        "title": "Intro"
+    },
+    "type": "DynamicSectionComponent",
+    "priority": "2",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "direction": "vertical",
+            "align": {
+                "horizontal": "center"
+            },
+            "gap": "md",
+            "items": [
+                {
+                    "type": "TypographyComponent",
+                    "config": {
+                        "text": "<div class=\"mobile-text-pad\"><div style='text-align:center; max-width:56rem; margin:0 auto;'><span class='tag' style='color:#c19a5b; text-transform:uppercase; letter-spacing:0.1em; font-size:0.875rem; font-weight:600; display:block; margin-bottom:1rem;'>Boligtyper</span><h2 class='title' style='font-family:\"Playfair Display\", serif; font-size:clamp(1.75rem, 3vw, 2.5rem); color:#11352f; margin-bottom:1.5rem;'>Hvilken boligtype er du til?</h2><p class='text' style='color:#4b5563;'>I Danmark findes der mange forskellige typer huse og villaer. Her får du et overblik over de mest udbredte, så du ved, hvad du kigger efter.</p></div></div>",
+                        "align": "center"
+                    },
+                    "id": "component_64c74354_5f9e_4915_910e_41a5edf21bed"
+                }
+            ],
+            "id": "component_3c40bcb9_99dc_4d85_b2d5_5007731b0dbc"
+        }
+    },
+    "ui": {
+        "width": "lg",
+        "justify": "center",
+        "margin": "xl none",
+        "padding": "lg 0"
+    },
+    "id": "section_86e19c06_a5ac_454b_abe7_c6efeafb364f"
+}
