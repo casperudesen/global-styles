@@ -1,0 +1,72 @@
+{
+    "metadata": {
+        "id": "valby_neighborhoods",
+        "title": "Valby Områder Grid",
+        "description": "Grid med beskrivelser af villaområder i Valby.",
+        "searchString": "valby villaområder langgade folehaven retortvej",
+        "image": "",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Villakvarterer i Valby",
+    "priority": "3",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "direction": "vertical",
+            "gap": "lg",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "id": "component_ab628fd3_bee5_403b_8f9e_b840dc01757b",
+                    "config": {
+                        "html": "<div class=\"mobile-text-pad\" style='text-align:center;max-width:48rem;margin:0 auto;'><span class='section-label' style='color:#c19a5b;'>OMRÅDER</span><h2 class='section-title' style='font-family:\"Playfair Display\",serif;font-size:clamp(2.25rem,3vw,3.25rem);color:#ffffff;margin-bottom:1.5rem;'>Villakvarterer med hver deres stemning</h2><p style='font-family:\"DM Sans\",sans-serif;font-size:1.0625rem;color:rgba(255,255,255,0.75);line-height:1.7;'>Valby rummer en lang række unikke områder, der hver især tilbyder noget særligt for beboerne.</p></div>"
+                    }
+                },
+                {
+                    "type": "FlowComponent",
+                    "id": "component_c5f2ed3d_1c05_4ca3_9bb5_e63db89bbf17",
+                    "direction": "vertical | horizontal",
+                    "gap": "md | lg",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "id": "component_8448e6b9_185b_404e_a7ce_eb447dd44bf9",
+                            "config": {
+                                "html": "<div style='background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);padding:2rem;height:100%;'><h3 style='font-family:\"Playfair Display\",serif;font-size:1.25rem;color:#c19a5b;margin-bottom:0.75rem;'>Langgade-kvarteret</h3><p style='font-family:\"DM Sans\",sans-serif;font-size:0.9375rem;color:rgba(255,255,255,0.8);line-height:1.7;'>Omkring Valby Langgade finder du villaer, rækkehuse og små sidegader med en nærmest landsbyagtig stemning, tæt på butiksliv og station.</p></div>"
+                            }
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "id": "component_a0d56834_f1ce_4254_8363_33f863073534",
+                            "config": {
+                                "html": "<div style='background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);padding:2rem;height:100%;'><h3 style='font-family:\"Playfair Display\",serif;font-size:1.25rem;color:#c19a5b;margin-bottom:0.75rem;'>Folehaven</h3><p style='font-family:\"DM Sans\",sans-serif;font-size:0.9375rem;color:rgba(255,255,255,0.8);line-height:1.7;'>Kendetegnet ved store villagrunde, grønne omgivelser og god plads, et ideelt område for børnefamilier der ønsker luft omkring sig.</p></div>"
+                            }
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "id": "component_155166be_5e34_4cc8_acd3_371a775a43b6",
+                            "config": {
+                                "html": "<div style='background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);padding:2rem;height:100%;'><h3 style='font-family:\"Playfair Display\",serif;font-size:1.25rem;color:#c19a5b;margin-bottom:0.75rem;'>Gl. Køge Landevej</h3><p style='font-family:\"DM Sans\",sans-serif;font-size:0.9375rem;color:rgba(255,255,255,0.8);line-height:1.7;'>Større villaer og rækkehuse med let adgang til grønne områder og transport, tæt ved Valbyparkens naturskønne arealer.</p></div>"
+                            }
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "id": "component_2aeee474_4d0c_418a_9be7_3cc1f3a25080",
+                            "config": {
+                                "html": "<div style='background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);padding:2rem;height:100%;'><h3 style='font-family:\"Playfair Display\",serif;font-size:1.25rem;color:#c19a5b;margin-bottom:0.75rem;'>Retortvejskvarteret</h3><p style='font-family:\"DM Sans\",sans-serif;font-size:0.9375rem;color:rgba(255,255,255,0.8);line-height:1.7;'>Kombinerer ældre villaer og nyere rækkehuse i et roligt og velordnet kvarter, der bliver stadig mere populært blandt tilflyttere.</p></div>"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "id": "component_8a871088_f215_4c13_9f4d_ff388617d070"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "padding": "xl none | 2xl none",
+        "bgColor": "#11352f"
+    },
+    "id": "section_b1c0cacc_8897_412c_b2ec_b791f88a1321"
+}

@@ -1,0 +1,75 @@
+{
+    "type": "DynamicSectionComponent",
+    "title": "Formular Sektion",
+    "priority": "3",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "md",
+            "width": "100%",
+            "padding": "xl none | none",
+            "items": [
+                {
+                    "type": "FlowComponent",
+                    "align": {
+                        "vertical": "start",
+                        "horizontal": "start"
+                    },
+                    "direction": "vertical",
+                    "gap": "md",
+                    "width": "100%",
+                    "height": "auto",
+                    "padding": "lg | xl",
+                    "rounded": "sm",
+                    "bgColor": "#ffffff",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<h3 class=\"form-card__title\">Tilmeld Køberkartotek</h3>"
+                            },
+                            "id": "component_230f565b_394a_42a9_a317_d5c2a10ab194"
+                        },
+                        {
+                            "type": "WishForm",
+                            "config": {
+                                "wishes": [
+                                    {
+                                        "wishNamespace": "dk.realequity.wish.boligønske",
+                                        "title": "Bolig",
+                                        "estateNamespaces": [],
+                                        "rangeCriterias": []
+                                    }
+                                ],
+                                "bgColor": "#ffffff",
+                                "formPadding": "none",
+                                "confirmTitle": "Tak for din tilmelding",
+                                "confirmDescription": "Vi kontakter dig, når vi har boliger der matcher dine ønsker. Du kan også kontakte os på:",
+                                "resourceGroupId": "6c7b0478-343b-41ae-9cd5-420fe17c1da9"
+                            },
+                            "height": "100%",
+                            "width": "100%",
+                            "id": "component_59ad7ca5_0b63_4fc4_8c83_2e78d550842b"
+                        }
+                    ],
+                    "id": "component_dba3b900_4081_4425_956d_59b3c249bd1e"
+                }
+            ],
+            "id": "component_1e453135_5db3_4f8c_b137_ff7dddd9adef"
+        }
+    },
+    "ui": {
+        "width": "lg",
+        "justify": "center",
+        "height": "",
+        "margin": "none",
+        "bgColor": "#ffffff",
+        "padding": "none | xl"
+    },
+    "id": "section_90e29706_c3f0_4d21_8bfe_31c24244fef4"
+}

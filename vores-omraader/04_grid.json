@@ -1,0 +1,468 @@
+{
+    "metadata": {
+        "id": "mosaik_4x4",
+        "title": "Mosaik 4x4 - Native CMS Fixed",
+        "description": "Native CMS Grid opgraderet med CSS til at matche custom design. Ingen 'lift' animation.",
+        "searchString": "Mosaik 4x4 billeder galleri 16",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Mosaik 4x4",
+    "priority": "3",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "direction": "vertical",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "id": "component_ea52b532_caa3_4201_9033_337c138adc3c",
+                    "config": {
+                        "html": "<style>.native-mosaic-fix{padding-bottom:5rem;}.native-mosaic-fix div[data-type='GridComponent']>div[data-type='FlowComponent']{position:relative!important;overflow:hidden!important;border-radius:2px!important;aspect-ratio:4/3!important;box-shadow:0 10px 15px -3px rgba(0,0,0,0.1)!important;transition:box-shadow 0.3s ease!important;height:auto!important;min-height:250px!important;cursor:pointer;-webkit-tap-highlight-color:transparent;}.native-mosaic-fix div[data-type='GridComponent']>div[data-type='FlowComponent']:hover{transform:none!important;box-shadow:0 12px 18px -3px rgba(0,0,0,0.2)!important;}.native-mosaic-fix div[data-type='GridComponent']>div[data-type='FlowComponent']::before{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.85),rgba(0,0,0,0.2),transparent);z-index:1;opacity:0.9;transition:opacity 0.3s ease;pointer-events:none;}.native-mosaic-fix div[data-type='GridComponent']>div[data-type='FlowComponent']:hover::before{opacity:0.8;}.native-mosaic-fix div[data-type='GridComponent']>div[data-type='FlowComponent']>div{position:absolute!important;bottom:0!important;left:0!important;width:100%!important;padding:2rem!important;z-index:2!important;display:flex!important;flex-direction:column!important;justify-content:flex-end!important;}.native-mosaic-fix .area-card-label{text-transform:uppercase;letter-spacing:0.1em;font-size:0.75rem;font-weight:700;color:#c19a5b!important;background:transparent!important;padding:0!important;margin-bottom:0.5rem;display:block;box-shadow:none!important;opacity:1;transform:translateY(0);transition:all 0.3s ease;}.native-mosaic-fix div[data-type='GridComponent']>div[data-type='FlowComponent']:hover .area-card-label{opacity:1;transform:translateY(0);}.native-mosaic-fix .area-card-title{font-family:'Playfair Display',serif!important;font-size:1.875rem!important;color:#ffffff!important;margin:0 0 0.25rem 0!important;line-height:1.2!important;text-shadow:none!important;transition:color 0.3s ease;}.native-mosaic-fix div[data-type='GridComponent']>div[data-type='FlowComponent']:hover .area-card-title{color:#c19a5b!important;}.native-mosaic-fix .area-card-description{font-family:'DM Sans',sans-serif!important;font-size:0.9rem!important;color:rgba(255,255,255,0.8)!important;margin:0!important;font-weight:300!important;text-shadow:none!important;}@media(max-width:768px){section.native-mosaic-fix{width:100vw!important;max-width:100vw!important;margin-left:calc(-50vw + 50%)!important;padding-left:1.25rem!important;padding-right:1.25rem!important;padding-bottom:2rem!important;box-sizing:border-box!important;}section.native-mosaic-fix>div,section.native-mosaic-fix>div>div{width:100%!important;max-width:100%!important;}.native-mosaic-fix div[data-type='GridComponent']{width:100%!important;max-width:100%!important;gap:1rem!important;}.native-mosaic-fix div[data-type='GridComponent']>div[data-type='FlowComponent']{min-height:unset!important;width:100vw!important;}.native-mosaic-fix div[data-type='GridComponent']>div[data-type='FlowComponent']>div{padding:1.25rem!important;}.native-mosaic-fix .area-card-title{font-size:1.5rem!important;}.native-mosaic-fix .area-card-description{font-size:0.8rem!important;}}</style><script>(function(){try{var scripts=document.querySelectorAll('script');var last=scripts[scripts.length-1];var section=last?last.closest('section'):null;if(!section){section=document.querySelector('section[data-section-id]');}if(section){section.classList.add('native-mosaic-fix');}}catch(e){console.warn('native-mosaic-fix error',e);}})();</script>"
+                    }
+                },
+                {
+                    "type": "GridComponent",
+                    "config": {
+                        "cols": "1 | 3",
+                        "gap": "md",
+                        "width": "100%"
+                    },
+                    "items": [
+                        {
+                            "id": "component_56c43815_666e_404c_a809_ef849a840ac3",
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_e1c0abe0_f4b1_4972_a077_79cc640bfcb5",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Valby</h3><p class=\"area-card-description\">Det grønne hjerte i byen</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg none | lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-valby"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/d8f47938-3d52-42f2-a236-7a4e95959609/valby grøntorvsparken.jpg/md",
+                            "bgSize": "cover"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_78c2083c_504b_422f_8fcf_aca7fa178379",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Brønshøj</h3><p class=\"area-card-description\">Roligt boligkvarter</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg none | lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-broenshoej"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/10123d92-ea2a-403c-b70f-fa8335d5e5f5/Brønshøj.jpg/md",
+                            "bgSize": "cover",
+                            "id": "component_b37d816c_4561_4b12_a415_a2e56d40ee59"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_91de69f3_65e8_4542_b27f_0cfa37e7c923",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Frederiksberg</h3><p class=\"area-card-description\">Elegance og grønne oaser</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-frederiksberg"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/287d0825-57ff-47e5-8630-efeefe01c5bf/Frb kochsvej .jpg/md",
+                            "bgSize": "cover",
+                            "id": "component_441bc568_dcc7_4053_abc0_e3650d2b6362"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_70006fdd_77d5_4040_ab31_afbca57695c1",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Islands Brygge</h3><p class=\"area-card-description\">Livet ved havnefronten</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-islands_brygge"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/1c82c685-2779-4f8c-9674-265c8108be13/Islands brygge.jpg/md",
+                            "bgSize": "cover",
+                            "id": "component_4674a306_8b1c_47ef_bf1a_eb243a7a7a42"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_6e89cc12_4679_429d_a491_6e9f9f7aefb7",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Kongens Lyngby</h3><p class=\"area-card-description\">Natur og handelsliv</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-kgslyngby"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/14bf1e0e-4732-42f9-976c-46cf451f7408/virum Large/md",
+                            "bgSize": "cover",
+                            "id": "component_a6d588e8_e2f8_4708_9677_40e054dd026c"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_4e2e3358_3282_4046_bf47_ed1e99eb720a",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Nordhavn</h3><p class=\"area-card-description\">Moderne arkitektur ved vandet</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-nordhavn"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/d3487ad1-bc4b-4611-8d3e-cefd9fecf809/nordhavn/md",
+                            "bgSize": "cover",
+                            "id": "component_e76070c1_1e9d_45f3_b2f2_9992729025d7"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_5f8c1dde_5958_4766_b494_0a55a192ce0f",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Sydhavnen</h3><p class=\"area-card-description\">Udvikling ved havnen</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-sydhavnen"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/0f33ca65-5d5d-4ad6-a924-c209838d11dd/sluseholmem.jpg/md",
+                            "bgSize": "cover",
+                            "id": "component_9b23e48b_f6ca_4879_a46e_9e841a215e20"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_7e76ed4e_220f_4ebc_b21e_e3fa1609c5cd",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Østerbro</h3><p class=\"area-card-description\">Klassisk, bredt og grønt</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-oesterbro"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/fe8a1e20-6ffe-426c-ba4a-4985886345d9/kbh-ø amerika plads.jpg/md",
+                            "bgSize": "cover",
+                            "id": "component_5735b6c1_90e9_47c8_ac02_33441433733e"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_2e23ffcf_93dd_44e6_9ba4_a6e4d3e5f970",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Amager</h3><p class=\"area-card-description\">Strand, natur og byliv</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-amager"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/c84e4fa0-f449-46b2-987f-28dd8ddb7119/amagerstrand/md",
+                            "bgSize": "cover",
+                            "id": "component_e60246d4_e5b1_4720_958d_6ee6717971cc"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_ff3ad61c_013b_4905_8a3b_2dfcb977f50a",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Vanløse</h3><p class=\"area-card-description\">Roligt og familievenligt</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-vanloese"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/01f4cb59-1b3b-43a0-a767-3fe8eeef17dc/Vanløse.jpg/md",
+                            "bgSize": "cover",
+                            "id": "component_073f87c9_bd38_4104_b0da_2b681b1550dc"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_bbccd9b5_b213_41e6_a439_239b599ed0e6",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Vesterbro</h3><p class=\"area-card-description\">Pulserende og kreativt</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-vesterbro"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/afcef47b-d464-4fe1-81f1-172a8865931b/kbh V Humleby.jpg/md",
+                            "bgSize": "cover",
+                            "id": "component_536ce29a_3e95_449d_9d89_72da1e78ac9c"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_97939845_6307_4665_ae93_a768da4ddec1",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Gentofte</h3><p class=\"area-card-description\">Strandvejen og herskabsvillaer</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-gentofte"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/b59a77e2-528e-4d33-ab73-0910f2f72047/gentofte/md",
+                            "bgSize": "cover",
+                            "id": "component_ac537c1d_bc75_48a0_a30b_356bb5701ded"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_591f5bdd_3d4d_475b_a0cc_a72dc85d4be2",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">København K</h3><p class=\"area-card-description\">Indre bys historiske charme</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-koebenhavn_k"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/2a4c8ac7-1373-4662-9752-6600b07c9c02/Kbh k kalvebod brygge.jpg/md",
+                            "bgSize": "cover",
+                            "id": "component_9bdd0843_0e90_4cfa_81cc_d7bd0d37f712"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "items": [
+                                {
+                                    "id": "component_25880f1f_d7a2_4f9a_9590_7692bc662e8b",
+                                    "type": "TypographyComponent",
+                                    "justify": "start",
+                                    "config": {
+                                        "text": "<div class=\"area-card-label\">Se boliger</div><h3 class=\"area-card-title\">Nørrebro</h3><p class=\"area-card-description\">Kultur og mangfoldighed</p>"
+                                    }
+                                }
+                            ],
+                            "align": {
+                                "vertical": "end",
+                                "horizontal": "start"
+                            },
+                            "direction": "horizontal",
+                            "gap": "sm",
+                            "padding": "lg",
+                            "rounded": "sm",
+                            "height": "auto",
+                            "width": "100%",
+                            "cta": {
+                                "url": "/omraade-noerrebro"
+                            },
+                            "bgColor": "",
+                            "bgImage": "https://mediaserver.prod.realequity.dk/images/d96d3cd2-d3a0-44a9-a493-b77e3148b107/Kbh N -sankt hans torv.jpg/md",
+                            "bgSize": "cover",
+                            "id": "component_9998a52e_b5be_411f_95cb_4f027e65e54e"
+                        }
+                    ],
+                    "id": "component_0b1a3e18_c6cf_4fe7_beca_e5cf28838449"
+                }
+            ],
+            "id": "component_3353e50c_b794_4d24_8238_7021e46e7370"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "justify": "start",
+        "height": "",
+        "margin": "md none | xl none",
+        "padding": "none",
+        "bgColor": "transparent"
+    },
+    "id": "section_df447c12_59d7_4ca2_91df_da158f128f30"
+}

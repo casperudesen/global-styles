@@ -1,0 +1,31 @@
+{
+    "metadata": {
+        "id": "navigation_and_globals",
+        "title": "Navigation & Global Styles"
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Navigation",
+    "priority": "0",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "width": "100%",
+            "items": [
+                {
+                    "id": "component_4e5ef34e_9981_445e_bff0_67c8ad9a6937",
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<style id=\"fb-nav-guard\">/* Inline guard: hides platform nav before GTM loads */\n:root, body, #root {\n  --heightMobile: 0px !important;\n  --heightDesktop: 0px !important;\n}\n.pt-\\[var\\(--heightMobile\\)\\],\n.md\\:pt-\\[var\\(--heightDesktop\\)\\] {\n  padding-top: 0 !important;\n}\n[data-section-type=\"NavigationComponent\"],\n[data-section-type=\"HeaderComponent\"],\n[data-component-type=\"NavigationComponent\"],\n[data-component-type=\"HeaderComponent\"],\nheader.fixed.top-0,\nbody > div#root > div > header:first-child,\nbody > div#root > header:first-child {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  min-height: 0 !important;\n  max-height: 0 !important;\n  overflow: hidden !important;\n  pointer-events: none !important;\n  position: absolute !important;\n  opacity: 0 !important;\n}\n</style>"
+                    }
+                }
+            ],
+            "id": "component_e0448f46_084d_4b39_95dc_46d69ca13605"
+        }
+    },
+    "id": "section_3e2b505f_6e82_4d35_8037_24e9c4ec3bec"
+}

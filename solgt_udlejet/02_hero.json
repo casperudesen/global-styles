@@ -1,0 +1,43 @@
+{
+    "type": "DynamicSectionComponent",
+    "title": "Hero - Søg Bolig",
+    "priority": "1",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "width": "100%",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<div class=\"hero\"></div>"
+                    },
+                    "id": "component_d3582d00_0b73_490e_980f_11aff02f9493"
+                },
+                {
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<div class=\"hero__content\">\n  <span class=\"tag\">Tidligere sager</span>\n  <h1 class=\"hero__title\">Solgte og udlejede boliger</h1>\n  <p class=\"hero__subtitle\">Få overblik over eksklusive boliger i København og Nordsjælland, som vi allerede har solgt eller udlejet.</p>\n</div>"
+                    },
+                    "id": "component_1583b21d_99e9_4ddb_8140_a0afcda3e76d"
+                }
+            ],
+            "id": "component_01e0bed0_e3b8_49fa_823a_362eb067a610"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "center",
+        "height": "70vh",
+        "margin": "none none 2xl none",
+        "bgImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop",
+        "padding": "none | "
+    },
+    "id": "section_2e43b74c_fb5c_42af_91c7_5ebaa1d4fdcf"
+}

@@ -1,0 +1,83 @@
+{
+    "metadata": {
+        "id": "hero_exclusive_boliger",
+        "slug": "hero-exklusive-boliger",
+        "title": "Hero – Eksklusive Boliger",
+        "description": "Hero med billede, overlay, typografi og knapper",
+        "searchString": "hero eksklusive boliger",
+        "image": "/api/templates/sections/hero_exklusive_boliger/image",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Hero – Eksklusive Boliger",
+    "priority": "1",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "lg | lg",
+            "padding": "none md | md",
+            "items": [
+                {
+                    "type": "FlowComponent",
+                    "id": "component_2257f754_befe_4f32_8c55_026cb0d6b0d4",
+                    "align": {
+                        "vertical": "center",
+                        "horizontal": "center"
+                    },
+                    "direction": "vertical",
+                    "items": [
+                        {
+                            "type": "TypographyComponent",
+                            "justify": "center",
+                            "config": {
+                                "align": "center",
+                                "size": "4xl",
+                                "textColor": "",
+                                "text": "<h1 class=\"hero-title\">Unikke Boliger</h1>",
+                                "title": "Unikke Boliger..."
+                            },
+                            "id": "component_1720f84e_0824_46df_a938_368f5ab27a5f"
+                        },
+                        {
+                            "type": "TypographyComponent",
+                            "justify": "center",
+                            "config": {
+                                "align": "center",
+                                "size": "lg",
+                                "textColor": "",
+                                "text": "<p class=\"hero-subtitle\">30 års lokal ekspertise i København og Nordsjælland. Vi sælger din bolig til den bedste pris i markedet.</p>",
+                                "title": "30 års lokal ekspertise i Købe..."
+                            },
+                            "id": "component_a8179b2a_5076_4176_90e5_44641d9e9bd1"
+                        }
+                    ]
+                },
+                {
+                    "type": "HtmlComponent",
+                    "id": "component_b879e68c_6692_48bc_8743_77c72a2455cb",
+                    "config": {
+                        "html": "<div class=\"hero-buttons\"><a title=\"Søg efter bolig\" href=\"/soeg-efter-bolig\" class=\"hero-btn hero-btn--primary\">Søg bolig</a><a href=\"/saelg-din-bolig\" class=\"hero-btn hero-btn--secondary\">Bestil Vurdering</a></div>"
+                    }
+                }
+            ],
+            "id": "component_3ee7c41a_96b6_4cae_8b81_e507944c6772"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "justify": "center",
+        "height": "100vh | 100vh",
+        "bgColor": "transparent",
+        "bgImage": "https://mediaserver.prod.realequity.dk/images/f8096758-c733-4e45-b206-2318eaa0ea8e/luxury_scandinavian_living_room_with_copenhagen_view/original",
+        "bgSize": "cover",
+        "customClass": "hero-image-bang",
+        "padding": "none",
+        "margin": "none"
+    },
+    "id": "section_4d5e7bcc_3dc0_4723_ac18_e17fe13c9788"
+}

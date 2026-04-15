@@ -1,0 +1,45 @@
+{
+    "metadata": {
+        "id": "diskret_hero",
+        "title": "Hero Section",
+        "description": "Hero med baggrundsbillede",
+        "searchString": "hero",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Hero",
+    "priority": "1",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "width": "100%",
+            "height": "100%",
+            "bgImage": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1974&auto=format&fit=crop",
+            "items": [
+                {
+                    "id": "component_48bdd757_f759_4e1d_9dc4_402e36471c35",
+                    "type": "HtmlComponent",
+                    "width": "100%",
+                    "height": "100%",
+                    "config": {
+                        "html": "<div class=\"hero\">\n<div class=\"hero__content\">\n<span class=\"tag\">Off-market</span>\n<h1 class=\"hero__title\">Diskret Salg</h1>\n<p class=\"hero__subtitle\">Eksklusiv formidling af boliger uden offentlig annoncering. Når salget kræver stilhed og præcision.</p>\n<div class=\"btn-group btn-group--center\">\n<a href=\"/saelg-din-bolig\" class=\"btn btn--primary\">Bestil Diskret Vurdering</a>\n</div>\n</div>\n</div>"
+                    }
+                }
+            ],
+            "id": "component_4117e1c1_898a_4b8b_b7cd_c2e216ce6133"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "center",
+        "height": "80vh",
+        "margin": "none"
+    },
+    "id": "section_55997d0b_e0aa_4d03_baaf_6140979e1786"
+}

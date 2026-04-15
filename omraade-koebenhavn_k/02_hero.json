@@ -1,0 +1,45 @@
+{
+    "metadata": {
+        "id": "koebenhavn_k_hero",
+        "title": "Hero Section",
+        "description": "Hero med baggrundsbillede for København K",
+        "searchString": "hero københavn k",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Hero",
+    "priority": "1",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "width": "100%",
+            "height": "100%",
+            "bgImage": "https://mediaserver.prod.realequity.dk/images/a36a3fb8-462f-4f0a-99af-910f76bd185e/kbh%20k%20amalienborg%20-%20marmorkirken.jpg/original",
+            "items": [
+                {
+                    "id": "component_62adeb67_5c0c_4c05_9264_4529719afa4f",
+                    "type": "HtmlComponent",
+                    "width": "100%",
+                    "height": "100%",
+                    "config": {
+                        "html": "<div class=\"hero\"><div class=\"hero__content\"><span class=\"tag\">København</span><h1 class=\"hero__title\">København K</h1><p class=\"hero__subtitle\">Klassisk skønhed og moderne byliv i hjertet af hovedstaden</p><div class=\"btn-group btn-group--center\"><a href=\"#Bestil-salgsvurdering\" class=\"btn btn--primary\">Bestil salgsvurdering</a></div></div></div>"
+                    }
+                }
+            ],
+            "id": "component_198bbe13_6110_4933_8a34_a27eb46b5070"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "center",
+        "height": "80vh",
+        "margin": "none"
+    },
+    "id": "section_bbc902b3_9ec7_485b_b469_71ad8b4cbbf6"
+}

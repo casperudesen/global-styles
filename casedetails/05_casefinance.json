@@ -1,0 +1,10 @@
+{
+    "type": "CaseFinancialSection",
+    "title": "CaseFinancialSection",
+    "ui": {
+        "padding": "none | lg"
+    },
+    "specifics": {},
+    "id": "section_ccfff669_6c74_4f67_adae_ac3d0503a824",
+    "priority": "4"
+}

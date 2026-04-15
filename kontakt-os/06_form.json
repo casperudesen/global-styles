@@ -1,0 +1,74 @@
+{
+    "type": "DynamicSectionComponent",
+    "title": "Formular Sektion",
+    "priority": "5",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "start"
+            },
+            "direction": "vertical | horizontal",
+            "gap": "xl",
+            "width": "100%",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "width": "100% | 30%",
+                    "config": {
+                        "html": "<div class=\"lg:pr-8\">\n  <h2 class=\"text-3xl font-serif text-primary mb-6\">Send os en besked</h2>\n  <div class=\"text-gray-600 text-sm leading-relaxed space-y-4\">\n    <p>Har du spørgsmål til en bolig, går du med salgstanker, eller vil du bare høre mere om, hvad vi kan tilbyde?</p>\n    <p>Du er altid velkommen til at række ud. Udfyld formularen til højre, så vender vi tilbage til dig hurtigst muligt.</p>\n    <p class=\"font-semibold text-primary\">Vi glæder os til at høre fra dig.</p>\n  </div>\n</div>"
+                    },
+                    "id": "component_c69991fb_6198_4032_b467_778c78f79f37"
+                },
+                {
+                    "type": "FlowComponent",
+                    "align": {
+                        "vertical": "start",
+                        "horizontal": "start"
+                    },
+                    "direction": "vertical",
+                    "gap": "md",
+                    "width": "100% | 70%",
+                    "height": "auto",
+                    "padding": "lg | xl",
+                    "rounded": "sm",
+                    "bgColor": "#f5f5f0",
+                    "customClass": "border-l-4 border-[#c19a5b]",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<h3 class=\"text-xl font-serif text-primary mb-6\">Kontaktformular</h3>"
+                            },
+                            "id": "component_f555c55e_685c_4171_9fb3_29271b0d44dc"
+                        },
+                        {
+                            "type": "AssessmentForm",
+                            "config": {
+                                "resourceGroupId": "6c7b0478-343b-41ae-9cd5-420fe17c1da9",
+                                "confirmTitle": "Tak for din henvendelse",
+                                "confirmDescription": "Vi bestræber os på at vende tilbage så hurtigt som muligt. Ellers kan vi kontaktes på:",
+                                "submitLabel": "Send Besked"
+                            },
+                            "height": "100%",
+                            "width": "100%",
+                            "id": "component_1d163f92_3ccb_47e7_b9b4_78df95281caf"
+                        }
+                    ],
+                    "id": "component_b5fb3873_9bdd_43d2_835c_57c7d2e02e71"
+                }
+            ],
+            "id": "component_2be04403_7d54_42e7_8ba5_3cb96f55edf2"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "justify": "center",
+        "height": "",
+        "margin": "none",
+        "bgColor": "#ffffff",
+        "padding": "none lg lg lg | 2xl xl"
+    },
+    "id": "section_fb2a5a2c_9f2f_43b2_b519_4e5210780565"
+}

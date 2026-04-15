@@ -1,0 +1,36 @@
+{
+    "type": "DynamicSectionComponent",
+    "title": "Intro Sektion",
+    "priority": "2",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "md",
+            "width": "100%",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<div class=\"intro\"><h2 class=\"intro__title\">Er du køber, men har brug for hjælp?</h2><div class=\"intro__text\"><p>Falch & Bai sælger ikke kun boliger. Vi hjælper vores kunder, uagtet om det er første gang de skal på ejerboligmarkedet, eller om de har en lang række handler bag sig.</p><p>Vi møder jer i øjenhøjde og kan hjælpe med at finde jeres næste hjem. Kontakt os for en dialog om hvad i søger og lad os finde det rette til jer.</p></div></div>"
+                    },
+                    "id": "component_26a3e237_5b12_42a5_b84b_2c2fae4aafc9"
+                }
+            ],
+            "id": "component_f40b47f0_e0b4_4033_ac44_ddb08a6f9910"
+        }
+    },
+    "ui": {
+        "width": "lg",
+        "justify": "center",
+        "height": "",
+        "margin": "xl none none none | none",
+        "bgColor": "#ffffff",
+        "padding": "lg | 2xl none"
+    },
+    "id": "section_526ed2c3_def8_4dc3_96ce_f81b9723d3e9"
+}

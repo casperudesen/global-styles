@@ -1,0 +1,52 @@
+{
+    "metadata": {
+        "id": "koebenhavn_k_intro",
+        "title": "København K Intro",
+        "description": "Intro med fuld brødtekst og personlig vinkel",
+        "searchString": "københavn k city intro",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Bydelen København K",
+    "priority": "2",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "customClass": "mobile-content-pad",
+            "align": {
+                "vertical": "center",
+                "horizontal": "start"
+            },
+            "direction": "vertical | horizontal",
+            "gap": "lg | xl",
+            "items": [
+                {
+                    "type": "ImageComponent",
+                    "width": "100% | 45%",
+                    "config": {
+                        "url": "https://mediaserver.prod.realequity.dk/images/602a226f-6864-4d51-a9f0-afe54ab5c957/kbh%20k%20Amalienborg.jpg/lg",
+                        "aspectRatio": "4/5",
+                        "objectFit": "cover",
+                        "altText": "København K"
+                    },
+                    "id": "component_135842f0_63d8_4b40_9e23_c3e4685f135b"
+                },
+                {
+                    "type": "HtmlComponent",
+                    "width": "100% | 55%",
+                    "id": "component_379b3580_1a64_4571_9a11_11543a192bd8",
+                    "config": {
+                        "html": "<div class=\"mobile-text-pad\"><span class='section-label'>BYDELEN</span><h2 class='section-title' style='font-family:\"Playfair Display\",serif;font-size:clamp(2.25rem,3vw,3.25rem);line-height:1.1;color:#11352f;margin:0 0 1.75rem 0;'>København K<br><span style='font-style:italic;color:#c19a5b;'>klassisk skønhed og moderne byliv</span></h2><div style='font-family:\"DM Sans\",sans-serif;font-size:1.0625rem;line-height:1.75;color:#475569;display:flex;flex-direction:column;gap:1rem;'><p><strong>København K - også kendt som City - er hjertet af hovedstaden.</strong> Her mødes kongelig historie, arkitektonisk elegance, kultur og moderne storbyliv i et af Europas mest eftertragtede boligområder.</p><p>København K rummer et væld af forskellige kvarterer, hver med sin egen identitet, og med alt fra historiske ejendomme og liebhaverlejligheder til moderne nybyggeri og eksklusive tagboliger. Her bor man i første parket til byens puls og med gåafstand til det hele.</p><p>Jeg har i løbet af min karriere arbejdet som ejendomsmægler også arbejdet i City, blandt andet som partner i en af landets største og mest etablerede ejendomsmæglerkæder. Det har givet mig en solid erfaring og et dybt kendskab til markedet, som jeg nu bringer med mig hos Falch &amp; Bai Ejendomsmægler. Jeg bor i dag i København K.</p></div></div>"
+                    }
+                }
+            ],
+            "id": "component_fd3bd6f1_09c7_4139_9835_71c2aa2b4cca"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "padding": "xl none | 2xl none",
+        "bgColor": "#ffffff"
+    },
+    "id": "section_d3108aff_6b0b_4eac_84a2_20938423815a"
+}

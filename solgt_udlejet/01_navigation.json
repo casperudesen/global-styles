@@ -1,0 +1,31 @@
+{
+    "metadata": {
+        "id": "master_injector_solgt_udlejet",
+        "title": "Master Design & Navigation",
+        "description": "Kombinerer bolig-layout styles med fungerende mobilmenu motor."
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Design & Navigation",
+    "priority": "0",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "direction": "vertical",
+            "items": [
+                {
+                    "id": "component_4c361161_b11e_442d_a99c_80aec55feaff",
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<style id=\"fb-nav-guard\">/* Inline guard: hides platform nav before GTM loads */\n:root, body, #root {\n  --heightMobile: 0px !important;\n  --heightDesktop: 0px !important;\n}\n.pt-\\[var\\(--heightMobile\\)\\],\n.md\\:pt-\\[var\\(--heightDesktop\\)\\] {\n  padding-top: 0 !important;\n}\n[data-section-type=\"NavigationComponent\"],\n[data-section-type=\"HeaderComponent\"],\n[data-component-type=\"NavigationComponent\"],\n[data-component-type=\"HeaderComponent\"],\nheader.fixed.top-0,\nbody > div#root > div > header:first-child,\nbody > div#root > header:first-child {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  min-height: 0 !important;\n  max-height: 0 !important;\n  overflow: hidden !important;\n  pointer-events: none !important;\n  position: absolute !important;\n  opacity: 0 !important;\n}\n</style>"
+                    }
+                }
+            ],
+            "id": "component_e2f53dda_d55b_40ff_9e49_899960047e4e"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "margin": "none"
+    },
+    "id": "section_1c2ad361_485e_451c_a511_3fc67016ad66"
+}

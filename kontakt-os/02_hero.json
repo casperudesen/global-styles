@@ -1,0 +1,87 @@
+{
+    "type": "DynamicSectionComponent",
+    "title": "Hero – Kontakt Os",
+    "priority": "1",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "lg | lg",
+            "padding": "none md | md",
+            "items": [
+                {
+                    "id": "component_93d95870_54bb_4813_8973_6381eeed5c86",
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<style>\n:root {\n  --c-hero-overlay: rgba(17, 53, 47, 0.7);\n  --c-hero-text: #ffffff;\n  --c-hero-subtext: rgba(255, 255, 255, 0.9);\n}\n\n.hero-image-contact {\n  position: relative;\n}\n\n.hero-image-contact::before {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background-color: var(--c-primary);\n  opacity: 0.7;\n  mix-blend-mode: multiply;\n  pointer-events: none;\n  z-index: 1;\n}\n\n.hero-image-contact::after {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  height: 8rem;\n  background: linear-gradient(to top, var(--c-white), transparent);\n  pointer-events: none;\n  z-index: 2;\n}\n\n.hero-image-contact > * {\n  position: relative;\n  z-index: 3;\n}\n\n.hero-tag {\n  color: var(--c-accent);\n  text-transform: uppercase;\n  letter-spacing: 0.2em;\n  font-weight: 600;\n  display: block;\n}\n\n.hero-title {\n  font-family: var(--f-serif);\n  color: var(--c-hero-text);\n  margin: 0 0 1rem 0;\n  font-size: clamp(2.5rem, 5vw, 4.5rem);\n}\n\n.hero-subtitle {\n  font-family: var(--f-sans);\n  font-weight: 300;\n  max-width: 42rem;\n  margin: 0 auto;\n  color: var(--c-hero-subtext);\n}\n</style>"
+                    }
+                },
+                {
+                    "type": "FlowComponent",
+                    "id": "component_ff9ba615_63f9_4e0d_afc0_a11adadb2007",
+                    "align": {
+                        "vertical": "center",
+                        "horizontal": "center"
+                    },
+                    "direction": "vertical",
+                    "gap": "sm",
+                    "items": [
+                        {
+                            "type": "TypographyComponent",
+                            "justify": "center",
+                            "config": {
+                                "align": "center",
+                                "size": "sm",
+                                "textColor": "",
+                                "text": "<span class=\"hero-tag\">Vi sidder klar</span>",
+                                "title": "Vi sidder klar"
+                            },
+                            "id": "component_7caabb9e_5fc4_4a07_90f4_6aeccdff4636"
+                        },
+                        {
+                            "type": "TypographyComponent",
+                            "justify": "center",
+                            "config": {
+                                "align": "center",
+                                "size": "4xl",
+                                "textColor": "",
+                                "text": "<h1 class=\"hero-title\">Kontakt Os</h1>",
+                                "title": "Kontakt Os"
+                            },
+                            "id": "component_65afc230_50ec_4a67_aa79_0c069c6ca409"
+                        },
+                        {
+                            "type": "TypographyComponent",
+                            "justify": "center",
+                            "config": {
+                                "align": "center",
+                                "size": "lg",
+                                "textColor": "",
+                                "text": "<p class=\"hero-subtitle\">Vi er altid klar til en uforpligtende snak om dine boligdrømme. Besøg os i hjertet af København eller send os en besked.</p>",
+                                "title": "Vi er altid klar..."
+                            },
+                            "id": "component_6fe91242_df94_4757_893a_91666d8f0bdd"
+                        }
+                    ]
+                }
+            ],
+            "id": "component_d3cf308a_4a20_4ed6_8115_098df25d2913"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "justify": "center",
+        "height": "80vh",
+        "bgColor": "transparent",
+        "bgImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop",
+        "bgSize": "cover",
+        "customClass": "hero-image-contact",
+        "padding": "none",
+        "margin": "none"
+    },
+    "id": "section_2b68dd17_5532_4ad8_84f0_3dfe685bb31d"
+}

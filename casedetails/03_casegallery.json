@@ -1,0 +1,11 @@
+{
+    "type": "CaseTileGallerySection",
+    "title": "CaseTileGallerySection",
+    "ui": {
+        "width": "full",
+        "padding": "none"
+    },
+    "specifics": {},
+    "id": "section_91578c19_4b0c_446c_9323_28ac57ef4b50",
+    "priority": "2"
+}

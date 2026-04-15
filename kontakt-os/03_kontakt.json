@@ -1,0 +1,36 @@
+{
+    "type": "DynamicSectionComponent",
+    "title": "Contact Info",
+    "priority": "2",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "width": "100%",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<div class=\"max-w-4xl mx-auto\">\n  <div class=\"text-center mb-16\">\n    <span class=\"text-accent uppercase tracking-widest text-sm font-semibold mb-4 block\">Lokalt til stede\n</span>\n    <h2 class=\"text-4xl font-serif text-primary mb-6 leading-tight\">Når du har brug for os\n <br><span class=\"italic text-accent\">København K\n</span></h2>\n    <p class=\"text-gray-600 text-lg leading-relaxed max-w-2xl mx-auto\">\n        Vi arbejder i hele København K og mødes efter aftale – online eller på et sted efter dit ønske.\n    </p>\n  </div>\n</div>"
+                    },
+                    "id": "component_3cf03d71_7af8_44e5_83a3_2b83d40a2dd0"
+                }
+            ],
+            "id": "component_492dfb5a_cc96_448a_8805_2b679636d1a8"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "center",
+        "height": "",
+        "margin": "none",
+        "bgColor": "#ffffff",
+        "padding": "2xl xl"
+    },
+    "id": "section_77c75c98_98d8_4008_8e1b_99b7892292b6"
+}

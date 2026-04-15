@@ -1,0 +1,45 @@
+{
+    "metadata": {
+        "id": "diskret_buyer_cta",
+        "title": "Køber CTA",
+        "description": "Call-to-action for købere",
+        "searchString": "køber cta",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Køber CTA",
+    "priority": "5",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "width": "100%",
+            "padding": "none",
+            "items": [
+                {
+                    "id": "component_862b4a7e_1e34_45b3_8036_c3e4d4ab2c5c",
+                    "type": "HtmlComponent",
+                    "width": "100%",
+                    "config": {
+                        "html": "<div class=\"cta-section\">\n<div class=\"cta-section__content\">\n<span class=\"tag\">For Købere</span>\n<h2 class=\"title title--xl title--white title--center\">Få adgang til <br/><span class=\"accent\">skuffesagerne</span></h2>\n<p class=\"text text--light text--center max-w-lg mx-auto\">Søger du noget helt særligt? Mange af vores mest attraktive ejendomme bliver aldrig annonceret offentligt. Skriv dig op i vores køberkartotek og få besked, før markedet gør.</p>\n<div class=\"btn-group btn-group--center\">\n<a href=\"/koeber-kartotek\" class=\"btn btn--white btn--lg\">Opret Køberprofil</a>\n</div>\n</div>\n</div>"
+                    }
+                }
+            ],
+            "id": "component_de233a86_3698_457a_80dc_62c6ab4936b3"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "center",
+        "height": "none",
+        "margin": "none",
+        "bgColor": "#11352f"
+    },
+    "bgColor": "#11352f",
+    "id": "section_1803b549_444e_44c6_a3ee_80ec6cc53ae6"
+}

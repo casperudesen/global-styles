@@ -1,0 +1,42 @@
+{
+    "metadata": {
+        "id": "global_styles",
+        "title": "Global Styles",
+        "description": "Fonts and Page-Specific CSS - Navigation handled by GTM",
+        "searchString": "css global styles",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Global Styles",
+    "priority": "0",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "padding": "none",
+            "width": "100%",
+            "items": [
+                {
+                    "id": "component_a80c9f73_78f6_495f_a687_13c1df6ec91e",
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<style id=\"fb-nav-guard\">/* Inline guard: hides platform nav before GTM loads */\n:root, body, #root {\n  --heightMobile: 0px !important;\n  --heightDesktop: 0px !important;\n}\n.pt-\\[var\\(--heightMobile\\)\\],\n.md\\:pt-\\[var\\(--heightDesktop\\)\\] {\n  padding-top: 0 !important;\n}\n[data-section-type=\"NavigationComponent\"],\n[data-section-type=\"HeaderComponent\"],\n[data-component-type=\"NavigationComponent\"],\n[data-component-type=\"HeaderComponent\"],\nheader.fixed.top-0,\nbody > div#root > div > header:first-child,\nbody > div#root > header:first-child {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  min-height: 0 !important;\n  max-height: 0 !important;\n  overflow: hidden !important;\n  pointer-events: none !important;\n  position: absolute !important;\n  opacity: 0 !important;\n}\n</style>"
+                    }
+                }
+            ],
+            "id": "component_6a4d0065_6896_4340_9659_fbc3e3fd072c"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "start",
+        "height": "none",
+        "margin": "none"
+    },
+    "id": "section_d7cde2a0_229d_4721_a712_a0bb16cf00c0"
+}

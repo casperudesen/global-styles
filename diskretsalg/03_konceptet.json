@@ -1,0 +1,43 @@
+{
+    "metadata": {
+        "id": "diskret_concept",
+        "title": "Koncept Sektion",
+        "description": "To-kolonne layout med billede og tekst",
+        "searchString": "koncept",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Konceptet",
+    "priority": "2",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "start"
+            },
+            "direction": "vertical",
+            "gap": "xl",
+            "width": "100%",
+            "items": [
+                {
+                    "id": "component_bccf0219_ed82_412d_aa3b_d6174ef96a28",
+                    "type": "HtmlComponent",
+                    "width": "100%",
+                    "config": {
+                        "html": "<div class=\"two-col\">\n<div class=\"two-col__col\">\n<div class=\"img-box img-box--portrait img-box--frame\">\n<img src=\"https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1780&auto=format&fit=crop\" alt=\"Interior Detail\" />\n</div>\n</div>\n<div class=\"two-col__col\">\n<span class=\"tag\">Konceptet</span>\n<h2 class=\"title title--xl\">Nogle boliger fortjener <br><span class=\"accent\">særlig beskyttelse</span></h2>\n<p class=\"text\">Ikke alle boligsalg behøver at ske i offentlighedens søgelys. Ved et diskret salg undgår du til-salg skilte, annoncering på boligportaler og åbne hus-arrangementer.</p>\n<p class=\"text\">I stedet matcher vi din bolig direkte med godkendte købere fra vores eksklusive netværk. Det sikrer dig fuld diskretion, seriøse fremvisninger og en proces, der foregår på dine præmisser.</p>\n<ul class=\"check-list\">\n<li><svg fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"></path></svg>Ingen digitalt fodspor eller historik på nettet</li>\n<li><svg fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"></path></svg>Kun fremvisning til godkendte købere</li>\n<li><svg fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"></path></svg>Mulighed for at teste prisniveauet risikofrit</li>\n</ul>\n</div>\n</div>"
+                    }
+                }
+            ],
+            "id": "component_b062c962_8619_4d05_832b_b5844e0e79f6",
+            "padding": "xl"
+        }
+    },
+    "ui": {
+        "width": "lg",
+        "justify": "center",
+        "height": "none",
+        "margin": "xl none"
+    },
+    "id": "section_f02041a7_3762_4f5d_ab7e_7e8986f8680e"
+}

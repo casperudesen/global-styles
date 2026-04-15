@@ -1,0 +1,97 @@
+{
+    "metadata": {
+        "id": "valby_valuation",
+        "title": "Valby Vurdering",
+        "description": "CTA og formularlayout til bestilling af vurdering i Valby.",
+        "searchString": "valby bestil vurdering form",
+        "image": "",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Bestil vurdering i Valby",
+    "priority": "5",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "start"
+            },
+            "direction": "vertical | horizontal",
+            "gap": "xl | 2xl",
+            "items": [
+                {
+                    "type": "FlowComponent",
+                    "align": {
+                        "vertical": "start",
+                        "horizontal": "start"
+                    },
+                    "direction": "vertical",
+                    "gap": "lg",
+                    "width": "100% | 45%",
+                    "padding": "none",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<div class=\"mobile-text-pad\"><div><span class=\"section-label\">EKSPERTISE</span><h2 class=\"section-title\">Købe eller sælge bolig i Valby?</h2></div></div>"
+                            },
+                            "id": "component_84e5d2a9_6adf_4628_b5c2_3ae72d60011f"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<div class=\"mobile-text-pad\"><div class=\"text\"><p>Hos Falch &amp; Bai Ejendomsmægler får du en erfaren rådgiver med indsigt i både Valbys klassiske villakvarterer og de nyere områder som Grønttorvet.</p><p>Vi ved, hvordan man prissætter og præsenterer boliger, så både det historiske og det moderne kommer til sin ret, og vi kender markedet ned til mindste sidegade.</p><p class=\"text--italic\" style=\"font-family:var(--f-serif);font-size:1.25rem;color:var(--c-primary);margin-top:1rem;\">\"Vi hjælper dig trygt og effektivt videre med øje for detaljen og respekt for kvarteret.\"</p></div></div>"
+                            },
+                            "id": "component_05269fac_dd92_4b58_b15d_560d8bdda6ab"
+                        }
+                    ],
+                    "id": "component_d8c567eb_4755_490c_9a69_951f79ee4b19"
+                },
+                {
+                    "type": "FlowComponent",
+                    "align": {
+                        "vertical": "start",
+                        "horizontal": "start"
+                    },
+                    "direction": "vertical",
+                    "gap": "md",
+                    "width": "100% | 55%",
+                    "height": "auto",
+                    "padding": "lg",
+                    "rounded": "sm",
+                    "bgColor": "#ffffff",
+                    "customClass": "form-card-container",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<h3 id=\"Bestil-salgsvurdering\" class=\"form-card__title\">Udfyld formularen</h3>"
+                            },
+                            "id": "component_89b4d100_de50_4c96_9cdb_e0406aec9791"
+                        },
+                        {
+                            "id": "component_f1961c3b_0f82_4857_aadf_1d3bae0ee66b",
+                            "type": "AssessmentForm",
+                            "height": "100%",
+                            "width": "100%",
+                            "config": {
+                                "resourceGroupId": "6c7b0478-343b-41ae-9cd5-420fe17c1da9",
+                                "confirmTitle": "Tak for din henvendelse",
+                                "confirmDescription": "Vi bestræber os på at vende tilbage så hurtigt som muligt. Ellers kan vi kontaktes på:"
+                            }
+                        }
+                    ],
+                    "id": "component_10eee237_efed_479b_8e38_fb1e7a3cf013"
+                }
+            ],
+            "id": "component_7a5de55e_5a19_4d6c_88f7_6c72f8fe1961"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "padding": "xl none | 2xl none",
+        "bgColor": "#f5f5f0"
+    },
+    "id": "section_fc69588c_b7fc_4402_8583_a2b085cced64"
+}

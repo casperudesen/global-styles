@@ -1,0 +1,10 @@
+{
+    "type": "CaseMapSection",
+    "title": "CaseMapSection",
+    "ui": {
+        "padding": "none | lg"
+    },
+    "specifics": {},
+    "id": "section_128331a2_3279_4923_aca5_8f48c0ee0781",
+    "priority": "6"
+}

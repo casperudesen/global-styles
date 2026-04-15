@@ -1,0 +1,65 @@
+{
+    "metadata": {
+        "id": "areas_section_grid",
+        "title": "Udvalgte Områder - Grid",
+        "description": "Sektion med overskrift og 3 områdekort med billeder og hover-effekt.",
+        "searchString": "Områder lokalkendskab billeder grid",
+        "image": "/api/templates/sections/areas_section_grid/image",
+        "tags": [
+            "areas",
+            "images",
+            "grid"
+        ]
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Udvalgte Områder",
+    "priority": "6",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "width": "100%",
+            "items": [
+                {
+                    "id": "component_316cb008_0e94_4963_801c_817356fd4a01",
+                    "type": "HtmlComponent",
+                    "height": "",
+                    "width": "",
+                    "config": {
+                        "html": "<section class=\"areas-section\"><div class=\"areas-container\"><div class=\"areas-header\"><div><span class=\"areas-subtitle\">Lokalkendskab</span><h2 class=\"areas-title\">Udvalgte Områder</h2></div><a href=\"/vores-omraader\" class=\"areas-link\">Se alle områder <span style=\"font-size: 1.25em;\">→</span></a></div><div class=\"areas-grid\"><a href=\"/omraade-frederiksberg\" class=\"area-card\"><img src=\"https://mediaserver.prod.realequity.dk/images/6bde283e-b5d1-416c-9f77-9cfbb97068cc/frederiksberg/xl\" alt=\"Frederiksberg\" class=\"area-img\"><div class=\"area-overlay\"></div><div class=\"area-content\"><h3 class=\"area-name\">Frederiksberg</h3><p class=\"area-desc\">Det grønne hjerte i byen</p></div></a><a href=\"/omraade-nordhavn\" class=\"area-card\"><img src=\"https://mediaserver.prod.realequity.dk/images/37ebceea-3aed-45b7-b7f3-6b1b0b12b11d/nordhavn-gade/md\" alt=\"Nordhavn\" class=\"area-img\"><div class=\"area-overlay\"></div><div class=\"area-content\"><h3 class=\"area-name\">Nordhavn</h3><p class=\"area-desc\">Moderne arkitektur ved vandet</p></div></a><a href=\"#\" class=\"area-card\"><img src=\"https://mediaserver.prod.realequity.dk/images/77b93b06-737e-4570-ba00-376d4ba52fa9/kbh%20%C3%98%20olufvej.jpg/md\" alt=\"Østerbro\" class=\"area-img\"><div class=\"area-overlay\"></div><div class=\"area-content\"><h3 class=\"area-name\">Østerbro</h3><p class=\"area-desc\">Klassisk og familievenligt</p></div></a></div><div class=\"mobile-btn-container\"></div></div></section>"
+                    }
+                },
+                {
+                    "id": "component_7131973c_2429_4c49_94f4_3dbe266c709b",
+                    "type": "ImageComponent",
+                    "height": "",
+                    "width": "",
+                    "config": {
+                        "height": "",
+                        "url": "",
+                        "altText": "",
+                        "width": "",
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "rounded": "none"
+                    }
+                }
+            ],
+            "id": "component_6ff48011_9a60_44a2_8f08_14a259b474bb"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "start",
+        "height": "",
+        "margin": "none",
+        "padding": "none",
+        "bgColor": "#FFFFFF"
+    },
+    "id": "section_5ba568f2_1465_48e4_b6e2_6ec59ee42f5a"
+}

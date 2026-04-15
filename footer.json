@@ -1,0 +1,181 @@
+{
+    "metadata": {
+        "id": "footer_blank",
+        "title": "Footer - blank (bruges kun ved overstyring af standard footer)",
+        "description": "Footer template til overstyring af standard footer.",
+        "searchString": "footer blank footer_blank",
+        "image": "/api/templates/pages/footer_blank/image",
+        "tags": [
+            "footer"
+        ]
+    },
+    "id": "page_a801ee0b_8562_441e_b6dc_34e55756873e",
+    "menuTitle": "Footer",
+    "sitemap": false,
+    "includeInMenu": false,
+    "browserTitle": "Footer",
+    "sections": [
+        {
+            "metadata": {
+                "id": "footer_sexy_dark_v3_crisp_white",
+                "title": "Footer - Dark & Crisp (White Text)",
+                "description": "Footer med 3 kolonner. Tekst er venstrestillet og helt hvid (#ffffff).",
+                "image": "",
+                "tags": []
+            },
+            "type": "DynamicSectionComponent",
+            "title": "Footer - Falch & Bai",
+            "priority": "0",
+            "specifics": {
+                "rootComponent": {
+                    "type": "FlowComponent",
+                    "align": {
+                        "vertical": "start",
+                        "horizontal": "start"
+                    },
+                    "direction": "vertical",
+                    "padding": "xl | 2xl",
+                    "gap": "xl | 2xl",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "id": "component_2c95dbdc_5651_432e_85ac_96dc4acd309f",
+                            "config": {
+                                "html": "<style>section[data-section-type=\"DynamicSectionComponent\"][style*=\"background-color: rgb(17, 53, 47)\"]>div[data-type=\"FlowComponent\"]{max-width:1400px!important;margin-left:auto!important;margin-right:auto!important;width:100%!important;}section[style*=\"#11352f\"]>div[data-type=\"FlowComponent\"]{max-width:1400px!important;margin-left:auto!important;margin-right:auto!important;width:100%!important;}.footer-serif{font-family:'Playfair Display',serif;}.footer-sans{font-family:'DM Sans',sans-serif;}.text-accent{color:#c19a5b;}.hover-accent:hover{color:#c19a5b!important;transition:color 0.2s ease;}.menu-list{list-style:none;padding:0;margin:0;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:#ffffff;line-height: 2.2;text-align: left;}.menu-item{text-align: center;}.menu-item a{text-decoration:none; color:#ffffff; transition: color 0.2s ease; display: block; text-align: center;}.menu-item a:hover{color: #c19a5b; transform: translateX(5px);}.details-marker-none>summary{list-style:none;display:flex;align-items:center;cursor:pointer;font-size:0.875rem;font-family:'DM Sans',sans-serif;font-weight:500;color:rgba(255,255,255,0.6);transition:color 0.2s;}.details-marker-none>summary:hover{color:white;}.details-marker-none>summary::-webkit-details-marker{display:none;}.accordion-content{margin-top:2rem;font-size:0.75rem;color:rgba(255,255,255,0.5);font-family:'DM Sans',sans-serif;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;}.accordion-header{color:#c19a5b;margin-bottom:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;}.fb-footer-content{max-width:1400px;margin:0 auto;width:100%;} /* Contact Links in Col 1 */ .contact-link-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-family: 'DM Sans', sans-serif; font-size: 0.95rem; color: #ffffff; text-decoration: none; text-align: left; } .contact-link-row:hover { color: #c19a5b; } .contact-link-row svg { flex-shrink: 0; } .address-block { color: #ffffff; text-align: left; opacity: 1; }</style>"
+                            }
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "id": "component_eadc25ec_7fcd_40b0_b3ac_0d35d07474a4",
+                            "align": {
+                                "vertical": "start",
+                                "horizontal": "start"
+                            },
+                            "direction": "vertical | horizontal",
+                            "gap": "xl | xl",
+                            "width": "100%",
+                            "maxWidth": "1400px",
+                            "items": [
+                                {
+                                    "type": "FlowComponent",
+                                    "id": "component_04d3cc02_c8ff_4988_b7d2_34b7bb548903",
+                                    "width": "100% | 40%",
+                                    "direction": "vertical",
+                                    "gap": "lg",
+                                    "items": [
+                                        {
+                                            "type": "TypographyComponent",
+                                            "config": {
+                                                "text": "<span class='footer-serif' style='font-size: 1.75rem; letter-spacing: 0.05em; text-transform: uppercase;'>Falch <span class='text-accent'>&amp;</span> Bai</span>",
+                                                "textColor": "#ffffff",
+                                                "align": "left"
+                                            },
+                                            "id": "component_f9598da7_e469_4760_8094_6751d960cb8a"
+                                        },
+                                        {
+                                            "type": "HtmlComponent",
+                                            "config": {
+                                                "html": "<div class='footer-sans address-block' style='font-size: 1rem; line-height: 1.6; margin-bottom: 1.5rem;'><p>Herluf Trolles Gade 4</p><p>1052 København K</p><p style='opacity: 0.7; font-size: 0.85rem; margin-top:4px;'>CVR: 45353818</p></div><div style='display:flex; flex-direction:column; gap: 4px;'><a href='tel:+4522296091' class='contact-link-row'><svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='none' viewBox='0 0 24 24' stroke='#c19a5b' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z' /></svg>+45 22 29 60 91</a><a href='mailto:jb@falchbai.dk' class='contact-link-row'><svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='none' viewBox='0 0 24 24' stroke='#c19a5b' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z' /></svg>jb@falchbai.dk</a></div>"
+                                            },
+                                            "id": "component_13b2f741_2898_4d84_b3c7_4dc6a61cb407"
+                                        },
+                                        {
+                                            "type": "HtmlComponent",
+                                            "config": {
+                                                "html": "<div style='margin-top: 1rem; text-align: left;'><p class='footer-sans' style='font-size: 0.75rem; text-transform:uppercase; text-align:center; letter-spacing: 0.1em; color: rgba(255,255,255,0.5); margin-bottom: 0.5rem;'>Medlem af</p><a href='https://de.dk' target='_blank' class='hover-opacity' style='display:block; width:6rem; opacity: 0.9;'><svg fill=\"#fff\" style=\"width:100%;height:auto\" viewBox=\"0 0 472.11 451.61\"><path d=\"M197.28 178.94h-22.11c-1.28 0-2.36.94-2.53 2.21l-5.38 38.96-6.41-39.02a2.556 2.556 0 0 0-2.52-2.14h-38.5c-1.41 0-2.56 1.14-2.56 2.56v87.78c0 1.41 1.14 2.56 2.56 2.56h19.11c1.41 0 2.56-1.14 2.56-2.56v-70.22l14.92 54.48a2.55 2.55 0 0 0 2.46 1.85h15.74c1.12 0 2.12-.73 2.44-1.81l14.89-54.52v70.22c0 1.41 1.14 2.56 2.56 2.56h19.11c1.41 0 2.56-1.14 2.56-2.56v-87.78c0-1.41-1.14-2.56-2.56-2.56h-16.33ZM306.26 223.75c0-1.71-.04-6.26-.05-7.91.59-12.73-5.9-25.15-17.01-31.58-6.41-3.82-13.37-5.38-20.52-5.3-2.16-.05-4.37-.11-6.53-.11-9.36-.08-19.6-.18-29.07.09h-9.38a2.87 2.87 0 0 0-2.87 2.87v87.14a2.87 2.87 0 0 0 2.87 2.87h11.84c9.82.26 20.52.03 30.31-.14 1.34-.05 3.34-.1 4.68-.08 11.1-.08 22.7-4.81 29.53-14.34 3.53-4.81 5.61-10.87 6.02-16.7.27-5.94.14-11.02.18-16.83Zm-28.2 16.46c-.61 3.94-2.08 7.58-5.42 10.08-2.22 1.66-4.95 2.49-7.72 2.63-6.02.3-4.4.49-18 .49a.1.1 0 0 1-.1-.1v-56.38c0-.06.05-.09.12-.09 8.33 0 13.47.44 14.56.49 4.1.18 8.37.96 11.59 3.5 4.22 3.33 5.4 8.69 5.55 13.8.13 4.32-.03 8.77.02 13.09.05 3.88.04 8.29-.62 12.49ZM352.95 198.35v-16.99c0-1.43-1.16-2.59-2.6-2.59l-53.18.17c13.56 8.22 16.45 22 16.45 22h36.74a2.59 2.59 0 0 0 2.59-2.59ZM314.61 215.05h35.74a2.59 2.59 0 0 1 2.59 2.59v16.32a2.59 2.59 0 0 1-2.59 2.59h-35.74v-21.5ZM352.95 252.24v16.99c0 1.43-1.16 2.59-2.6-2.59l-53.18-.17c13.56-8.22 16.45-22 16.45-22h36.74a2.59 2.59 0 0 1 2.59 2.59Z\"/><path d=\"M458.95 159.11h-7.82c-10.68-34.73-29.75-66.55-56.18-92.98C352.3 23.49 295.59 0 235.28 0S118.26 23.49 75.61 66.13c-26.43 26.43-45.5 58.25-56.18 92.98h-6.26C5.91 159.11 0 165.02 0 172.28v107.55C0 287.09 5.91 293 13.17 293h6.42c10.71 34.54 29.72 66.17 56.02 92.47 42.65 42.65 99.36 66.14 159.67 66.14s117.02-23.49 159.67-66.14c26.3-26.3 45.31-57.93 56.02-92.47h7.98c7.26 0 13.16-5.91 13.16-13.17V172.28c0-7.26-5.9-13.17-13.16-13.17ZM235.28 5c98.52 0 182.18 64.86 210.51 154.11h-75.94c-24.6-49.45-75.68-83.51-134.57-83.51s-109.97 34.06-134.57 83.51H24.77C53.1 69.86 136.76 5 235.28 5Zm128.96 154.11H106.32c24.19-46.6 72.92-78.51 128.96-78.51s104.77 31.91 128.96 78.51Zm-128.96 287.5C136.95 446.61 53.42 382 24.93 293h76.03c24.69 49.18 75.63 83.01 134.32 83.01S344.91 342.18 369.6 293h76.03c-28.49 89-112.02 153.61-210.35 153.61ZM106.58 293h257.4c-24.28 46.33-72.86 78.01-128.7 78.01S130.86 339.33 106.58 293Zm360.53-13.17c0 4.5-3.66 8.17-8.16 8.17H13.17c-4.5 0-8.17-3.67-8.17-8.17V172.28c0-4.51 3.67-8.17 8.17-8.17h445.78c4.5 0 8.16 3.66 8.16 8.17v107.55Z\"/><path d=\"m188.21 58.39 1.59-11.22 1.43-.41 3.93 13.79-1.37.39-3.37-11.85.32.57-1.5 10.51-.97.28-6.76-7.95-.08-.84 3.37 11.85-1.37.39-3.93-13.79 1.43-.41 7.27 8.7ZM199.04 59.7l-2.75-14.07 1.39-.27 2.75 14.07-1.39.27Zm-1.54-12.97-.25-1.3 8.08-1.58.25 1.3-8.08 1.58Zm1.26 6.44-.25-1.3 7.02-1.37.25 1.3-7.02 1.37Zm1.24 6.34-.25-1.3 8.08-1.58.25 1.3-8.08 1.58ZM211.38 57.42l-1.65-14.24 1.41-.16 1.65 14.24-1.41.16Zm1.35-.15-.15-1.31 3.22-.37c1.32-.15 2.27-.58 2.86-1.27.58-.69.81-1.66.66-2.9l-.49-4.19c-.14-1.24-.58-2.13-1.31-2.67s-1.75-.73-3.07-.58l-3.22.37-.15-1.31 3.16-.37c1.82-.21 3.22.06 4.22.8 1 .75 1.59 1.97 1.79 3.67l.47 4.04c.13 1.14.04 2.1-.27 2.91s-.85 1.44-1.61 1.91-1.74.78-2.95.92l-3.15.37ZM224.81 56.04l-.6-14.33 1.42-.06.6 14.33-1.42.06Zm1.01-.04-.06-1.32 8.2-.34.06 1.32-8.2.34ZM236.84 55.67l.42-14.33 1.42.04-.42 14.33-1.42-.04Zm.98.03.04-1.32 8.23.24-.04 1.32-8.23-.24Zm.19-6.46.04-1.32 7.15.21-.04 1.32-7.15-.21Zm.19-6.56.04-1.32 8.23.24-.04 1.32-8.23-.24ZM255.84 52.85l5.74-9.77 1.48.17-1.61 14.25-1.41-.16 1.38-12.24.08.64-5.38 9.15-1-.11-3.23-9.92.24-.81-1.38 12.24-1.41-.16 1.61-14.25 1.48.17 3.41 10.81ZM269.93 58.97l8.48-12.71 1.67.4 1.8 15.18-1.53-.37-1.45-13.56-7.44 11.43-1.53-.37Zm3.18-2.81.31-1.29 7.34 1.76-.31 1.29-7.34-1.76ZM284.39 62.63l4.38-13.66 1.35.43-4.38 13.66-1.35-.43Zm2.87-5.73.4-1.26 6.62 2.12-.4 1.26-6.62-2.12Zm2.04-6.37.4-1.26 7.65 2.45-.4 1.26-7.65-2.45ZM72.19 163.11l-.94-.35c.28-.76.37-1.25.46-1.77.1-.57.2-1.17.58-2.08 17.23-41.98 50.95-76.56 92.5-94.88l.4.92c-41.32 18.21-74.84 52.6-91.98 94.34a7.81 7.81 0 0 0-.52 1.87c-.09.54-.19 1.1-.5 1.94ZM400.25 163.39c-.29-.77-.45-1.35-.62-1.91-.19-.67-.37-1.3-.74-2.18-17.12-41.71-49.18-74.94-90.26-93.56l.41-.91c41.32 18.73 73.56 52.15 90.78 94.1.38.93.57 1.59.77 2.28.16.54.32 1.11.59 1.84l-.94.35ZM236.57 434.4c-89.15 0-168.06-56.76-196.34-141.24-.65-1.96-1.16-3.55-1.59-5.02l.96.71c.43 1.45.94 2.04 1.59 3.98 28.15 84.07 106.67 140.56 195.4 140.56s167.25-56.49 195.4-140.56c.65-1.95 1.15-2.53 1.58-3.98l.96-.71c-.44 1.46-.94 3.06-1.59 5.02C404.65 377.64 325.75 434.4 236.6 434.4Z\"/>\n<path d=\"M432.72 163.26c-.54-1.68-1.1-2.33-1.68-3.99C402.16 76.79 324 21.37 236.56 21.37S70.97 76.8 42.09 159.28c-.58 1.66-1.14 3.31-1.68 4.99l-.95-.31c.52-1.63 1.07-3.27 1.68-5.01C70.17 76.07 148.71 20.38 236.57 20.38s166.4 55.69 195.42 138.56c.61 1.74 1.16 3.38 1.68 5.01l-.95-.69Z\"/>\n</svg></a></div>"
+                                            },
+                                            "id": "component_8dcdc3b8_3f8b_43ee_9b5f_002a8ad57036"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "FlowComponent",
+                                    "id": "component_51b51a07_e9fa_4819_84b7_e64c1d6dc033",
+                                    "width": "100% | 30%",
+                                    "direction": "vertical",
+                                    "gap": "md",
+                                    "items": [
+                                        {
+                                            "type": "TypographyComponent",
+                                            "config": {
+                                                "text": "Ejendomme",
+                                                "textColor": "#c19a5b",
+                                                "size": "lg",
+                                                "align": "left",
+                                                "fontFamily": "Playfair Display"
+                                            },
+                                            "id": "component_c4d66eed_3aa4_4a28_bf2b_711a113554e9"
+                                        },
+                                        {
+                                            "type": "HtmlComponent",
+                                            "config": {
+                                                "html": "<ul class='menu-list'><li class='menu-item'><a title='Find boliger' href='/soeg-efter-bolig'>Søg bolig</a></li><li class='menu-item'><a title='Se vores diskrete salg' href='/diskretsalg'>Diskret salg</a></li><li class='menu-item'><a title='Sælg din bolig' href='/saelg-din-bolig'>Sælg bolig</a></li><li class='menu-item'><a title='Se vores køberkartotek' href='/koeber-kartotek'>Køberkartotek</a></li></ul>"
+                                            },
+                                            "id": "component_11adb5a5_6c4b_486b_aa9c_babd5371a8d7"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "FlowComponent",
+                                    "id": "component_c896a78a_f67e_42bd_9753_3d60383f367f",
+                                    "width": "100% | 30%",
+                                    "direction": "vertical",
+                                    "gap": "md",
+                                    "items": [
+                                        {
+                                            "type": "TypographyComponent",
+                                            "config": {
+                                                "text": "Information",
+                                                "textColor": "#c19a5b",
+                                                "size": "lg",
+                                                "align": "left",
+                                                "fontFamily": "Playfair Display"
+                                            },
+                                            "id": "component_8f205a04_6f23_499f_b215_df804ee90be3"
+                                        },
+                                        {
+                                            "type": "HtmlComponent",
+                                            "config": {
+                                                "html": "<ul class='menu-list'><li class='menu-item'><a title='Vores områder' href='/vores-omraader'>Områder</a></li><li class='menu-item'><a title='Se boligviden' href='/bolig-viden'>Boligviden</a></li><li class='menu-item'><a title='Vores kontakt' href='/kontakt-os'>Kontakt</a></li></ul>"
+                                            },
+                                            "id": "component_985a1543_cdab_4637_b4c9_55c480659846"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "id": "component_96023fca_2833_4937_bf73_b8fb412a1e6e",
+                            "width": "100%",
+                            "config": {
+                                "html": "<div style='border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem; max-width: 1400px; margin: 0 auto;'><details class='details-marker-none' style='group'><summary><span>Samarbejdsaftaler &amp; Oplysninger</span><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='margin-left:0.5rem; transition:transform 0.3s;'><path d='m9 18 6-6-6-6'/></svg></summary><div class='accordion-content'>...</div></details></div>"
+                            }
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "id": "component_163abfdc_a975_405d_b2fe_37d01c5f869c",
+                            "width": "100%",
+                            "config": {
+                                "html": "<div style='border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem; display:flex; flex-direction:column; gap:1rem; font-family: DM Sans, sans-serif; font-size:0.75rem; color:rgba(255,255,255,0.4); max-width: 1400px; margin: 0 auto;'><div style='display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:1rem;'><p>© 2025 Falch &amp; Bai. Alle rettigheder forbeholdes.</p><div style='display:flex; gap:1.5rem;'><a href='/privatlivspolitik' style='color:inherit; text-decoration:none; transition:color 0.2s;' onmouseover='this.style.color=\"white\"' onmouseout='this.style.color=\"inherit\"'>Privatlivspolitik</a><a href='/cookie-indstillinger' style='color:inherit; text-decoration:none; transition:color 0.2s;' onmouseover='this.style.color=\"white\"' onmouseout='this.style.color=\"inherit\"'>Cookies</a></div></div></div>"
+                            }
+                        }
+                    ],
+                    "id": "component_df15523b_181f_40dc_891d_7259b1623a78",
+                    "backgroundPositionX": "left"
+                }
+            },
+            "ui": {
+                "width": "full",
+                "justify": "start",
+                "bgColor": "#11352f",
+                "padding": "none",
+                "margin": "none"
+            },
+            "id": "section_9220e3ad_9b24_45fc_9e68_02ddcd28fd19"
+        }
+    ],
+    "position": 31,
+    "slug": "",
+    "type": "footer"
+}

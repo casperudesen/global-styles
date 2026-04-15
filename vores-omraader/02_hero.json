@@ -1,0 +1,85 @@
+{
+    "metadata": {
+        "id": "omraader_hero_fixed",
+        "title": "Områder Hero",
+        "description": "Hero sektion til områdeside - Fixed structure matched to Amager",
+        "searchString": "hero områder",
+        "image": "/api/templates/sections/omraader_hero/image",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Områder Hero",
+    "priority": "1",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "lg",
+            "padding": "none md | md",
+            "width": "100%",
+            "height": "100%",
+            "items": [
+                {
+                    "type": "FlowComponent",
+                    "id": "component_21a9c952_cff5_4d1d_9530_2228680100dc",
+                    "align": {
+                        "vertical": "center",
+                        "horizontal": "center"
+                    },
+                    "direction": "vertical",
+                    "gap": "md",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "id": "component_0650e62f_16ee_4a74_b626_acc7c7adb2d1",
+                            "config": {
+                                "html": "<span class=\"tag\">Lokalkendskab</span>"
+                            }
+                        },
+                        {
+                            "type": "TypographyComponent",
+                            "id": "component_ff063dbf_d2a7_4087_acd0_35695b50cf47",
+                            "justify": "center",
+                            "config": {
+                                "align": "center",
+                                "size": "4xl",
+                                "textColor": "",
+                                "text": "<h1 class=\"hero-title\">Vores Områder</h1>",
+                                "title": "Vores Områder"
+                            }
+                        },
+                        {
+                            "type": "TypographyComponent",
+                            "id": "component_911217db_6123_4fe3_8d03_7274cf743e75",
+                            "justify": "center",
+                            "config": {
+                                "align": "center",
+                                "size": "lg",
+                                "textColor": "",
+                                "text": "<p class=\"hero-subtitle\">Find dit drømmeområde med en ægte lokalkendt ekspert. Vi kender hver en krog af København og Nordsjælland.</p>",
+                                "title": "Find dit drømmeområde..."
+                            }
+                        }
+                    ]
+                }
+            ],
+            "id": "component_dc3ec782_ec84_4f2e_8fb3_e6728ed58e98"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "justify": "center",
+        "height": "80vh",
+        "bgColor": "transparent",
+        "bgImage": "https://mediaserver.prod.realequity.dk/images/ab2e6750-2b8b-48af-920f-2bce5872dddc/nyhavn/original",
+        "bgSize": "cover",
+        "customClass": "hero-image-bang",
+        "padding": "none",
+        "margin": "none"
+    },
+    "id": "section_564dfb66_debe_4f3c_9eaf_e0be010305c5"
+}

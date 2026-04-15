@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "navigation_and_globals",
+        "title": "Navigation & Global Styles",
+        "description": "Loader ekstern nav og definerer globale + page-specifikke styles",
+        "searchString": "nav menu css global",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Navigation",
+    "priority": "0",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "padding": "none",
+            "width": "100%",
+            "items": [
+                {
+                    "id": "component_f4a81888_5486_49f9_bcd2_845ef73bff0a",
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<style id=\"fb-nav-guard\">/* Inline guard: hides platform nav before GTM loads */\n:root, body, #root {\n  --heightMobile: 0px !important;\n  --heightDesktop: 0px !important;\n}\n.pt-\\[var\\(--heightMobile\\)\\],\n.md\\:pt-\\[var\\(--heightDesktop\\)\\] {\n  padding-top: 0 !important;\n}\n[data-section-type=\"NavigationComponent\"],\n[data-section-type=\"HeaderComponent\"],\n[data-component-type=\"NavigationComponent\"],\n[data-component-type=\"HeaderComponent\"],\nheader.fixed.top-0,\nbody > div#root > div > header:first-child,\nbody > div#root > header:first-child {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  min-height: 0 !important;\n  max-height: 0 !important;\n  overflow: hidden !important;\n  pointer-events: none !important;\n  position: absolute !important;\n  opacity: 0 !important;\n}\n</style>"
+                    }
+                },
+                {
+                    "id": "component_5d2b41e1_33f8_4180_9c8b_1d14fa66cefd",
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<style id=\"fb-nav-guard\">/* Inline guard: hides platform nav before GTM loads */\n:root, body, #root {\n  --heightMobile: 0px !important;\n  --heightDesktop: 0px !important;\n}\n.pt-\\[var\\(--heightMobile\\)\\],\n.md\\:pt-\\[var\\(--heightDesktop\\)\\] {\n  padding-top: 0 !important;\n}\n[data-section-type=\"NavigationComponent\"],\n[data-section-type=\"HeaderComponent\"],\n[data-component-type=\"NavigationComponent\"],\n[data-component-type=\"HeaderComponent\"],\nheader.fixed.top-0,\nbody > div#root > div > header:first-child,\nbody > div#root > header:first-child {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  min-height: 0 !important;\n  max-height: 0 !important;\n  overflow: hidden !important;\n  pointer-events: none !important;\n  position: absolute !important;\n  opacity: 0 !important;\n}\n</style>"
+                    }
+                }
+            ],
+            "id": "component_c34a77eb_65c6_4fae_9292_7450059ae0cf"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "start",
+        "height": "none",
+        "margin": "none"
+    },
+    "id": "section_605b8183_ff93_4cff_870b_95c3a3de397e"
+}

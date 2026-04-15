@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "id": "cases_teaser_3columns",
+        "title": "cases_teaser_3columns",
+        "description": "Visning af nye sager, solgte sager og sager med åbent hus",
+        "searchString": "Visning af nye sager, solgte sager og sager med åbent hus",
+        "image": "/api/templates/sections/cases_teaser_3columns/image",
+        "tags": []
+    },
+    "type": "Emnevisning",
+    "title": "Visning af nye sager, solgte sager og sager med åbent hus",
+    "priority": "2",
+    "specifics": {
+        "visningstype": "newest",
+        "initialFilter": "all",
+        "kunforbutik": "false",
+        "textColor": "var(--page-text-color)",
+        "filters": [
+            {
+                "id": "newest",
+                "title": "Nye sager",
+                "label": "Nye sager",
+                "emptyText": "ingen"
+            },
+            {
+                "id": "latest_sold",
+                "title": "Solgte sager",
+                "label": "Solgte sager",
+                "emptyText": "ingen"
+            },
+            {
+                "id": "openhouse",
+                "title": "Åbent hus",
+                "label": "Åbent hus",
+                "emptyText": "ingen"
+            }
+        ],
+        "resourceGroupId": "6c7b0478-343b-41ae-9cd5-420fe17c1da9"
+    },
+    "ui": {
+        "padding": "sm | lg"
+    },
+    "id": "section_cf73dc8f_4ed4_4f89_a69a_a44150189084"
+}

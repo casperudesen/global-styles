@@ -1,0 +1,52 @@
+{
+    "metadata": {
+        "id": "kbhk_christianshavn_holmen",
+        "title": "Christianshavn og Holmen",
+        "description": "Tekst og billede sektion for Christianshavn og Holmen",
+        "searchString": "christianshavn holmen",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Christianshavn og Holmen",
+    "priority": "3",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "customClass": "mobile-content-pad",
+            "align": {
+                "vertical": "center",
+                "horizontal": "start"
+            },
+            "direction": "vertical | horizontal",
+            "gap": "lg | xl",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "width": "100% | 55%",
+                    "id": "component_4096b96a_6964_4299_b051_48a754b2269b",
+                    "config": {
+                        "html": "<div class=\"mobile-text-pad\"><span class='section-label'>HAVNEN</span><h2 class='section-title' style='font-family:\"Playfair Display\",serif;font-size:clamp(2.25rem,3vw,3.25rem);line-height:1.1;color:#11352f;margin:0 0 1.5rem 0;'>Christianshavn og Holmen<br><span style='font-style:italic;color:#c19a5b;'>urban stemning med vandudsigt</span></h2><div style='font-family:\"DM Sans\",sans-serif;font-size:1.0625rem;line-height:1.8;color:#475569;display:flex;flex-direction:column;gap:1rem;'><p>Christianshavn, populært sagt Havnen, er noget helt for sig. Med brostensgader, kanaler, husbåde og en bohemeagtig stemning er kvarteret elsket af både unge og etablerede købere. Her ligger moderne boliger side om side med gamle pakhuse og fredede ejendomme.</p><p>Holmen, tidligere militært område, er i dag forvandlet til en moderne og arkitektonisk ambitiøs bydel med boliger i første række til vandet og kulturinstitutioner som Operaen og Den Danske Scenekunstskole. Et område i konstant udvikling, hvor eksklusiv beliggenhed og kreativ atmosfære går hånd i hånd.</p></div></div>"
+                    }
+                },
+                {
+                    "type": "ImageComponent",
+                    "width": "100% | 45%",
+                    "config": {
+                        "url": "https://mediaserver.prod.realequity.dk/images/2a4c8ac7-1373-4662-9752-6600b07c9c02/Kbh%20k%20kalvebod%20brygge.jpg/lg",
+                        "aspectRatio": "4/5",
+                        "objectFit": "cover",
+                        "altText": "Christianshavn og Holmen"
+                    },
+                    "id": "component_376f3071_33c9_40a1_9e6e_1a2465b213e1"
+                }
+            ],
+            "id": "component_50358d67_1fb6_4898_a09c_a1be37d3be4b"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "padding": "xl none | 2xl none",
+        "bgColor": "#f5f5f0"
+    },
+    "id": "section_ed027a98_4ca3_43e7_9e29_08b89bc6e338"
+}

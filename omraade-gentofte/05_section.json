@@ -1,0 +1,52 @@
+{
+    "metadata": {
+        "id": "gentofte_living",
+        "title": "Gentofte Livskvalitet",
+        "description": "Sektion om natur og rekreation i Gentofte.",
+        "searchString": "gentofte natur bernstorffsparken dyrehaven",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Gentofte ånder grønt",
+    "priority": "4",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "customClass": "mobile-content-pad",
+            "align": {
+                "vertical": "center",
+                "horizontal": "start"
+            },
+            "direction": "vertical | horizontal",
+            "gap": "lg | xl",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "width": "100% | 50%",
+                    "id": "component_0e6933eb_2a0a_4b9c_a0e3_6e5a9d79c819",
+                    "config": {
+                        "html": "<div class=\"mobile-text-pad\"><span class='section-label'>LIVSKVALITET</span><h2 class='section-title' style='font-family:\"Playfair Display\",serif;font-size:clamp(2.25rem,3vw,3.25rem);line-height:1.1;color:#11352f;margin:0 0 2rem 0;'>Naturen som nabo<br><span style='font-style:italic;color:#c19a5b;'>rekreation og frisk luft</span></h2><div style='font-family:\"DM Sans\",sans-serif;font-size:1.0625rem;line-height:1.7;color:#475569;display:flex;flex-direction:column;gap:1rem;'><p>Gentofte Kommune er rig på natur. Fra Dyrehaven og Bernstorffsparken til Gentofte Sø og de mange mindre, hyggelige oaser som Kildegårdsparken og Ermelunden.</p><p>Her bor man med fuglesang og frisk luft som en naturlig del af hverdagen, uden nogensinde at slippe forbindelsen til Københavns muligheder.</p><p><span style='font-family:\"Playfair Display\",serif;font-size:1.25rem;color:#11352f;font-style:italic;'>Overvejer du at flytte til eller fra Gentofte?</span></p><p>Vi hjælper dig med at formidle værdien i både boligen og kvarterets unikke naturmæssige kvaliteter.</p></div></div>"
+                    }
+                },
+                {
+                    "type": "ImageComponent",
+                    "width": "100% | 50%",
+                    "config": {
+                        "url": "https://mediaserver.prod.realequity.dk/images/10123d92-ea2a-403c-b70f-fa8335d5e5f5/Brønshøj.jpg/md",
+                        "aspectRatio": "4/3",
+                        "objectFit": "cover",
+                        "altText": "Bernstorffsparken Gentofte"
+                    },
+                    "id": "component_bb861797_9001_45ad_8ec1_a47ffbb26c03"
+                }
+            ],
+            "id": "component_6e34eeae_cc2a_4961_8072_4565c41200d5"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "padding": "xl none | 2xl none",
+        "bgColor": "#f5f5f0"
+    },
+    "id": "section_ff1ea14a_eb41_448f_974a_42a9d53fd0f6"
+}

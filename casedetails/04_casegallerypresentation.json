@@ -1,0 +1,10 @@
+{
+    "type": "CasePresentationSection",
+    "title": "CasePresentationSection",
+    "ui": {
+        "padding": "none md md md | lg"
+    },
+    "specifics": {},
+    "id": "section_38143ff9_0b95_48c2_b063_740949bd55a9",
+    "priority": "3"
+}

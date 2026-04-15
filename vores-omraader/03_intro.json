@@ -1,0 +1,52 @@
+{
+    "metadata": {
+        "id": "intro_text_section",
+        "title": "Intro tekst",
+        "description": "Introduktionstekst til områder",
+        "searchString": "intro tekst",
+        "image": "/api/templates/sections/intro_text/image",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Intro Tekst",
+    "priority": "2",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "md",
+            "items": [
+                {
+                    "id": "component_73693100_fa1d_46fc_b69f_f8a194f1bcbc",
+                    "type": "TypographyComponent",
+                    "justify": "center",
+                    "config": {
+                        "text": "<div class=\"intro-section\"><h2 class=\"intro-title\">Et boligkøb handler om mere end mursten<br>– det handler om at finde det helt rigtige <span class=\"accent\">sted at leve</span>.</h2><p class=\"intro-text\">Med Janniks mangeårige erfaring fra salg, tidligere forretninger og personlige bopæl i adskillige af Københavns og Nordsjællands mest eftertragtede områder, får du en enestående indsigt i de enkelte bydelers unikke karakter, stemning og muligheder.</p><p class=\"intro-text\">Udforsk områderne herunder og opdag, hvor Janniks dybe lokalkendskab kan gøre den afgørende forskel for dig, uanset om du skal købe eller sælge.</p></div>",
+                        "title": "Intro tekst",
+                        "size": "lg",
+                        "textColor": "var(--c-primary)",
+                        "align": "center",
+                        "padding": "none",
+                        "margin": "none",
+                        "height": "auto",
+                        "width": "100%",
+                        "rounded": "none"
+                    }
+                }
+            ],
+            "id": "component_0087da96_b4f0_413f_8e8e_f17df62475c3"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "justify": "center",
+        "height": "none",
+        "margin": "xl none",
+        "padding": "none lg | "
+    },
+    "id": "section_cc79141d_b17d_4b5a_b865_f77ccef65b43"
+}

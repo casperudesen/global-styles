@@ -1,0 +1,38 @@
+{
+    "type": "ContentSectionComponent",
+    "title": "Båndnavn",
+    "priority": "2",
+    "specifics": {
+        "content": {
+            "gap": "lg",
+            "width": "2/3",
+            "padding": "md",
+            "items": [
+                {
+                    "type": "TypographyComponent",
+                    "justify": "start",
+                    "config": {
+                        "text": "Cookiepolitik",
+                        "size": "xl",
+                        "textColor": "#716822"
+                    }
+                },
+                {
+                    "type": "TypographyComponent",
+                    "justify": "start",
+                    "config": {
+                        "text": "<div><p>Når du besøger dette website indsamles en række oplysninger om dig, din computer og din adfærd på websitet. I denne cookiepolitik kan du læse detaljeret om de informationer vi indsamler, hvordan vi behandler oplysningerne, hvad vi bruger dem til, hvem der har adgang til oplysningerne, og hvem du kan kontakte om de indsamlede oplysninger.</p><p>Ved at besøge og anvende dette website giver du samtidig dit samtykke til denne cookiepolitik og indsamlingen af oplysningerne om dig.</p><div class='homepage-text-md'>Cookies</div><p>Når du besøger dette website modtager du automatisk en eller flere cookies. Hvis du ikke ønsker at modtage cookies, kan du klikke her: http://minecookies.org/cookiehandtering for at få en vejledning om, hvordan du undgår at modtage cookies og sletter de cookies, der ligger på din harddisk.</p><div class='homepage-text-md'>Hvad er en cookie?</div><p>En cookie er en lille tekstfil, der lagres i din browser for at kunne genkende din computer ved tilbagevendende besøg. En cookie er en passiv fil, der ikke kan indeholde personlige oplysninger eller virus.</p><div class='homepage-text-md'>Hvad cookies bruges til på vores website</div><p>Når du søger på dette website, anvender vi cookies til at gemme søgninger og til at huske din adgang til min side. Derudover bruger vi cookies til at føre statistik over antallet af brugere på sitet, så vi kan tilpasse indhold og annoncering til dig.</p><div class='homepage-text-md'>Hvor lang tid opbevares cookies?</div><p>Cookies sletter sig selv efter 6 måneder. Hver gang du genbesøger siden, forlænges perioden. Cookies opbevares 6 måneder efter dit seneste besøg.</p><div class='homepage-text-md'>Sådan undgår jeg cookies</div><p>Hvis du ikke ønsker at modtage cookies kan du blokere for alle cookies, slette eksisterende cookies fra din computer eller modtage en advarsel, før der gemmes en cookie. Du kan få yderligere oplysninger om hvordan du undgår cookies ved at klikke på dette link: http://minecookies.org/cookiehandtering.</p><p>Linket indeholder en vejledning for de mest almindelige og anvendte browsere, men enkelte vil ikke være nævnt. Du kan som regel bruge hjælpefunktionen i din browser for at få mere information om cookie-indstillinger. Dette gør du typisk ved at trykke F1 på din pc. Søg efter 'cookies'.</p><div class='homepage-text-md'>Cookies fra vores annoncesamarbejdspartnere</div><p>Vi har annoncesamarbejdspartnere, der sender cookies via vores website, og som har adgang til oplysninger, der er indsamlet via cookies fra vores website (tredjeparts-cookies). Annoncesamarbejdspartnerne er:</p><ul><li>Facebook</li><li>Google</li></ul><p>Det er muligt at fravælge at indgå i en række annoncenetværk, der deler oplysninger på tværs af forskellige netværk. Du kan finde listen her: http://minecookies.org/fravalg/</p><div class='homepage-text-md'>Google Analytics (trafikmåling)</div><p>Vi bruger cookies fra Google Analytics til at måle trafikken på websitet. Du kan afmelde dig her: https://tools.google.com/dlpage/gaoptout</p></div>",
+                        "size": "sm",
+                        "textColor": "#2A2A2A"
+                    }
+                }
+            ]
+        }
+    },
+    "ui": {
+        "width": "lg",
+        "height": "100%",
+        "margin": "md | xl md"
+    },
+    "id": "section_03786f18_5426_4e68_8918_bda9fe80a789"
+}

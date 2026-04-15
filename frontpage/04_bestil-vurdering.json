@@ -1,0 +1,66 @@
+{
+    "metadata": {
+        "id": "valuation_cta",
+        "title": "Bestil Vurdering - Dark",
+        "description": "Mørk sektion med centreret tekst og CTA knapper.",
+        "searchString": "bestil vurdering sexy cta",
+        "image": "/api/templates/sections/valuation_cta/image",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Bestil Vurdering - Sexy",
+    "priority": "3",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "md | md",
+            "padding": "xl | 2xl",
+            "items": [
+                {
+                    "type": "TypographyComponent",
+                    "justify": "center",
+                    "config": {
+                        "text": "<span class=\"section-label section-label--accent\">SALGSVURDERING</span>",
+                        "align": "center"
+                    },
+                    "id": "component_f3cefd14_349a_4c70_a041_29d27c6a639b"
+                },
+                {
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<h2 class=\"valuation-title\">Få vished for din <br/><span class=\"valuation-title__accent\">boligs potentiale</span></h2>"
+                    },
+                    "id": "component_c7d5a57f_66a0_4c94_94b2_a0bad0c63e18"
+                },
+                {
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<p class=\"valuation-text\">Overvejer du at sælge, eller er du blot nysgerrig på markedet? Vi leverer ikke bare et tal, men en strategisk køreplan for dit salg. Få en eksklusiv og uforpligtende vurdering baseret på 30 års lokal indsigt.</p>"
+                    },
+                    "id": "component_2883c182_104c_4459_af55_fd7f2aba1bb6"
+                },
+                {
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<div class=\"valuation-cta\"><a href=\"/saelg-din-bolig\" class=\"btn btn--primary\">Bestil Gratis Vurdering</a><a href=\"/kontakt-os\" class=\"btn btn--outline\">Kontakt os direkte</a></div>"
+                    },
+                    "id": "component_3fafcb4d_e08c_48be_a3d5_91e92ec7925e"
+                }
+            ],
+            "id": "component_0ab00c01_7749_43ba_af28_8a20b9f4e2df"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "center",
+        "bgColor": "#11352f",
+        "padding": "none",
+        "margin": "none | none none 2xl none"
+    },
+    "id": "section_8521b5f7_abc9_4a7d_9178_9a19827f4cc0"
+}

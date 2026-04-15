@@ -1,0 +1,42 @@
+{
+    "type": "DynamicSectionComponent",
+    "title": "Hero - Sælg Bolig",
+    "priority": "2",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "width": "100%",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<div class=\"hero\"></div>"
+                    },
+                    "id": "component_862e4bd7_15e6_4a94_b7ea_e84379b0cdf7"
+                },
+                {
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<div class=\"hero__content\">\n  <span class=\"tag\">Salgsvurdering</span>\n  <h1 class=\"hero__title\">Sælg din bolig</h1>\n  <p class=\"hero__subtitle\">En succesfuld handel starter med den rette strategi. Bestil en uforpligtende vurdering i dag.</p>\n</div>"
+                    },
+                    "id": "component_88be9d4a_d980_448f_b4fb_7c6950c0d819"
+                }
+            ],
+            "id": "component_41c2573d_2560_40d6_9581_d1770155d2b1"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "center",
+        "height": "70vh",
+        "margin": "none",
+        "bgImage": "https://mediaserver.prod.realequity.dk/images/55b9939f-e7e9-4df8-973b-6102b43cebc0/saelgbolig-din-bolig/md"
+    },
+    "id": "section_d9d6181f_e9dd_448a_a478_057509d9de71"
+}

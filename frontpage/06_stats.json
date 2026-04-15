@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "stats_section_dark",
+        "title": "Statistik Sektion - Mørk",
+        "description": "3 kolonner med statistik (Års erfaring, Dedikation, Tilgængelighed)",
+        "searchString": "statistik tal fakta",
+        "image": "/api/templates/sections/stats_section_dark/image",
+        "tags": [
+            "stats",
+            "about"
+        ]
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Statistik Sektion",
+    "priority": "5",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "width": "100%",
+            "items": [
+                {
+                    "id": "component_a105c633_95bc_4862_8d93_505a938ad081",
+                    "type": "HtmlComponent",
+                    "height": "",
+                    "width": "",
+                    "config": {
+                        "html": "<section class=\"stats-section-wrapper\"><div class=\"stats-container\"><div class=\"stats-grid\"><div class=\"stats-item\"><span class=\"stats-number\">30+</span><p class=\"stats-label\">Års Erfaring</p></div><div class=\"stats-item\"><span class=\"stats-number\">100%</span><p class=\"stats-label\">Dedikation</p></div><div class=\"stats-item\"><span class=\"stats-number\">24/7</span><p class=\"stats-label\">Tilgængelighed</p></div></div></div></section>"
+                    }
+                }
+            ],
+            "id": "component_724990d3_1696_4f33_92af_18f10b6e5301"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "start",
+        "height": "",
+        "padding": "none",
+        "margin": "none",
+        "bgColor": "#1B3C35"
+    },
+    "id": "section_baf22350_6f2d_4310_a4b7_5da06b8dd290"
+}

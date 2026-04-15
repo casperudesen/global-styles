@@ -1,0 +1,32 @@
+{
+    "id": "section_8044731a_9777_49af_8c1f_78003372c4bb",
+    "type": "DynamicSectionComponent",
+    "title": "Hero",
+    "priority": "1",
+    "specifics": {
+        "rootComponent": {
+            "id": "component_490a6c05_4db5_4cd7_a141_51e091b21e81",
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "width": "100%",
+            "items": [
+                {
+                    "id": "component_49b35a73_af7e_4074_93e1_d9ac1f5c6cf9",
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<div class='hero' style='height: 100%; display: flex; align-items: center; justify-content: center;'><div class='hero__content mobile-text-pad'><span class='tag'>Juridisk</span><h1 class='hero__title'>Privatlivspolitik</h1><p class='hero__subtitle'>Gennemsigtighed og sikkerhed for dine personoplysninger.</p></div></div>"
+                    }
+                }
+            ]
+        }
+    },
+    "ui": {
+        "width": "full",
+        "height": "60vh",
+        "bgImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=2000&auto=format&fit=crop"
+    }
+}

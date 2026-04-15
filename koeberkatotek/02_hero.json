@@ -1,0 +1,42 @@
+{
+    "type": "DynamicSectionComponent",
+    "title": "Hero - Køberkartotek",
+    "priority": "1",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "width": "100%",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<div class=\"hero\"></div>"
+                    },
+                    "id": "component_3a39d150_9413_4142_acc6_6171bd030631"
+                },
+                {
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<div class=\"hero__content\"><span class=\"tag\">Eksklusiv Adgang</span><h1 class=\"hero__title\">Køberkartotek</h1><p class=\"hero__subtitle\">Få besked om boligerne før de rammer det åbne marked.</p></div>"
+                    },
+                    "id": "component_64582e4c_5163_4968_b5dd_f910a5d5fb1b"
+                }
+            ],
+            "id": "component_a8df742d_5b52_4342_95ae_5ee6617c65d2"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "center",
+        "height": "70vh",
+        "margin": "none",
+        "bgImage": "https://mediaserver.prod.realequity.dk/images/2ae2ddd7-6527-4325-804b-a4f4e98c2f8d/koerberkartoteket/original"
+    },
+    "id": "section_5ab8aaad_bc6f_4dc8_a017_d9cb4db92cb5"
+}

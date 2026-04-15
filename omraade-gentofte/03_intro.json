@@ -1,0 +1,52 @@
+{
+    "metadata": {
+        "id": "gentofte_intro",
+        "title": "Gentofte Intro",
+        "description": "Introduktion til Gentofte og personlig mæglererfaring",
+        "searchString": "gentofte intro livskvalitet mæglererfaring",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Bydelen Gentofte",
+    "priority": "2",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "customClass": "mobile-content-pad reverse-on-mobile",
+            "align": {
+                "vertical": "center",
+                "horizontal": "start"
+            },
+            "direction": "vertical | horizontal",
+            "gap": "lg | xl",
+            "items": [
+                {
+                    "type": "ImageComponent",
+                    "width": "100% | 50%",
+                    "config": {
+                        "url": "https://mediaserver.prod.realequity.dk/images/10123d92-ea2a-403c-b70f-fa8335d5e5f5/Brønshøj.jpg/md",
+                        "aspectRatio": "4/5",
+                        "objectFit": "cover",
+                        "altText": "Gentofte villavej"
+                    },
+                    "id": "component_5db54609_c8d6_4ca8_86bd_6d5b13d23088"
+                },
+                {
+                    "type": "HtmlComponent",
+                    "width": "100% | 50%",
+                    "id": "component_b8715b3b_c916_4a8e_8063_f5d40037b127",
+                    "config": {
+                        "html": "<style>@media(max-width:767px){.reverse-on-mobile{flex-direction:column-reverse!important;}}</style><div class=\"mobile-text-pad\"><span class='section-label'>KOMMUNEN</span><h2 class='section-title' style='font-family:\"Playfair Display\",serif;font-size:clamp(2.25rem,3vw,3.25rem);line-height:1.1;color:#11352f;margin:0 0 2rem 0;'>Kvalitet & Karakter<br><span style='font-style:italic;color:#c19a5b;'>fra strandvejen til grønne stier</span></h2><div style='font-family:\"DM Sans\",sans-serif;font-size:1.0625rem;line-height:1.7;color:#475569;display:flex;flex-direction:column;gap:1rem;'><p>Gentofte Kommune er indbegrebet af ro og livskvalitet. Her finder man nogle af landets mest attraktive boligområder – fra herskabsvillaer i Hellerup og Charlottenlund til charmerende villaveje i Dyssegård og Gentofte by.</p><p>Jeg har selv arbejdet indgående i Ordrup og Charlottenlund og kender kommunen både fagligt og personligt. Den erfaring bruger jeg hver dag hos Falch &amp; Bai Ejendomsmægler til at hjælpe købere og sælgere trygt videre.</p><p style='font-family:\"Playfair Display\",serif;font-size:1.25rem;color:#11352f;font-style:italic;'>\"Her bor man med både kulturelle tilbud, gode skoler og smukke parker lige om hjørnet.\"</p><p>Uanset om det gælder funktionalistisk arkitektur i Klampenborg eller klassisk villaidyl ved Gentofte Sø, står vi klar med professionel rådgivning og lokalt kendskab.</p></div></div>"
+                    }
+                }
+            ],
+            "id": "component_4e5f4bc5_c398_418d_a529_216d54c6bacc"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "padding": "xl none | 2xl none",
+        "bgColor": "#ffffff"
+    },
+    "id": "section_d1361929_4948_457f_a525_98cb0581da6d"
+}

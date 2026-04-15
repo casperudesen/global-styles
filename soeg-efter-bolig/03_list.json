@@ -1,0 +1,20 @@
+{
+    "type": "CaseList",
+    "title": "Boligliste",
+    "priority": "2",
+    "specifics": {
+        "bgColor": "#f9fafb",
+        "disableDynamicTypeFilters": false,
+        "typeFilters": [],
+        "fallbackSections": [],
+        "listViews": [
+            "row"
+        ]
+    },
+    "ui": {
+        "width": "xl",
+        "justify": "center",
+        "margin": "none none xl none | none none 2xl none"
+    },
+    "id": "section_0a983214_8b34_4210_b5a7_2ca19dbf4eaf"
+}

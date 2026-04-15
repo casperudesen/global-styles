@@ -1,0 +1,33 @@
+{
+    "metadata": {
+        "id": "section_bonus",
+        "title": "Bonus Stilarter"
+    },
+    "type": "DynamicSectionComponent",
+    "priority": "4",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "direction": "vertical",
+            "gap": "md",
+            "items": [
+                {
+                    "type": "TypographyComponent",
+                    "config": {
+                        "text": "<div class=\"mobile-text-pad\"><h3 class=\"title\" style=\"text-align: center; font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 1rem; color: #11352f;\" >Bonus: Arkitektoniske stilarter</h3><ul class=\"text\" style=\"list-style-type: disc; margin-left: 1.5rem; color: #4b5563; line-height: 1.7;\" ><li><strong>Nyklassicisme:</strong> Symmetrisk, stilrent og inspireret af antikken</li><li><strong>Jugendstil / art nouveau:</strong> Bløde buer, ornamentering og organiske former</li><li><strong>Bauhaus / modernisme:</strong> Funktionelt og minimalistisk udtryk</li><li><strong>Nybarok / historicisme:</strong> Rigt dekoreret, ofte storladne villaer</li><li><strong>Nordisk minimalisme:</strong> Enkle former, naturlige materialer, store vinduer</li></ul></div>",
+                        "align": "start",
+                        "title": "Bonus: Arkitektoniske stilarte..."
+                    },
+                    "id": "component_5c97e25f_97bf_4c7a_a486_f96c0bcd1887"
+                }
+            ],
+            "id": "component_7b857dd2_128d_4ad4_aa6a_1c5a6d81ec47"
+        }
+    },
+    "ui": {
+        "width": "lg",
+        "justify": "center",
+        "margin": "lg none"
+    },
+    "id": "section_5010c835_6456_4be3_82b7_71d92244a8a2"
+}

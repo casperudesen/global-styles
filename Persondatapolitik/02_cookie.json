@@ -1,0 +1,18 @@
+{
+    "type": "ImageSectionV2Component",
+    "title": "Cookiepolitik",
+    "priority": "1",
+    "ui": {
+        "contentWidth": "xl",
+        "width": "full"
+    },
+    "specifics": {
+        "imageUrl": "https://images.unsplash.com/photo-1635602739175-bab409a6e94c?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Cookiepolitik",
+        "height": "400px",
+        "contentBgColor": "#716822",
+        "contentTextColor": "#f2f2f2",
+        "contentAlign": "right"
+    },
+    "id": "section_564f6dc0_6e34_499c_b4d5_2987d90ed5a7"
+}

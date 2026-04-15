@@ -1,0 +1,96 @@
+{
+    "metadata": {
+        "id": "gentofte_valuation",
+        "title": "Gentofte Vurdering",
+        "description": "CTA og formular til Gentofte Kommune.",
+        "searchString": "gentofte vurdering mægler",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Bestil vurdering i Gentofte",
+    "priority": "5",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "start"
+            },
+            "direction": "vertical | horizontal",
+            "gap": "xl | 2xl",
+            "items": [
+                {
+                    "type": "FlowComponent",
+                    "align": {
+                        "vertical": "start",
+                        "horizontal": "start"
+                    },
+                    "direction": "vertical",
+                    "gap": "lg",
+                    "width": "100% | 45%",
+                    "padding": "none",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<div class=\"mobile-text-pad\"><div><span class=\"section-label\">EKSPERTISE</span><h2 class=\"section-title\">Købe eller sælge i Gentofte Kommune?</h2></div></div>"
+                            },
+                            "id": "component_e4563b12_bd99_4ed4_a3e7_48ce4a7cf6e5"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<div class=\"mobile-text-pad\"><div class=\"text\"><p>Hos Falch &amp; Bai Ejendomsmægler får du en mægler med lokal erfaring og faglig tyngde. Vi kender markedet i Nordsjælland og ved præcis, hvordan man skaber tillid og de bedste rammer for en succesfuld handel.</p><p class=\"text--italic\" style=\"font-family:var(--f-serif);font-size:1.25rem;color:var(--c-primary);margin-top:1rem;\">Kontakt os for en uforpligtende vurdering eller en snak om mulighederne i Hellerup, Charlottenlund eller Gentofte.</p></div></div>"
+                            },
+                            "id": "component_5d640901_64b0_4867_93bc_b278ac3cc2a3"
+                        }
+                    ],
+                    "id": "component_64a6ec2e_8c09_4663_b5bc_6b3cc191822d"
+                },
+                {
+                    "type": "FlowComponent",
+                    "align": {
+                        "vertical": "start",
+                        "horizontal": "start"
+                    },
+                    "direction": "vertical",
+                    "gap": "md",
+                    "width": "100% | 55%",
+                    "height": "auto",
+                    "padding": "lg",
+                    "rounded": "sm",
+                    "bgColor": "#ffffff",
+                    "customClass": "form-card-container",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<h3 id=\"Bestil-salgsvurdering\" class=\"form-card__title\">Udfyld formularen</h3>"
+                            },
+                            "id": "component_733982c4_dee0_42e1_a25c_7fa644e91723"
+                        },
+                        {
+                            "id": "component_645d1ab4_0eb2_42f6_8033_9b91f01ba179",
+                            "type": "AssessmentForm",
+                            "height": "100%",
+                            "width": "100%",
+                            "config": {
+                                "resourceGroupId": "6c7b0478-343b-41ae-9cd5-420fe17c1da9",
+                                "confirmTitle": "Tak for din henvendelse",
+                                "confirmDescription": "Vi vender tilbage hurtigst muligt."
+                            }
+                        }
+                    ],
+                    "id": "component_6937b8b5_413d_4025_bfc4_382c9092b9a1"
+                }
+            ],
+            "id": "component_f02ff350_ea8e_493f_bdc7_79a7dc688874"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "padding": "xl none | 2xl none",
+        "bgColor": "#f5f5f0"
+    },
+    "id": "section_0eb98fa5_942d_427a_9a50_7bad67e39cbc"
+}

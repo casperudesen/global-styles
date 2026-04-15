@@ -1,0 +1,53 @@
+{
+    "metadata": {
+        "id": "diskret_listings",
+        "title": "Skuffesager",
+        "description": "Off-market ejendomme (Validated List)",
+        "searchString": "skuffesager listings",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Aktuelle Skuffesager",
+    "priority": "4",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "xl",
+            "width": "100%",
+            "padding": "xl",
+            "items": [
+                {
+                    "id": "component_404039af_c5e3_492c_bb42_686da3ee023f",
+                    "type": "HtmlComponent",
+                    "width": "100%",
+                    "config": {
+                        "html": "<style>/* Scoped Styles for Listings - FIXED OVERLAP BUG */.listing-group { display: flex; flex-direction: column; gap: 4rem; max-width: 1000px; margin: 0 auto; }.listing { display: grid; grid-template-columns: 1fr; background: #fff; border-radius: 4px; overflow: hidden; width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }.listing__image { position: relative; width: 100%; height: 300px; overflow: hidden; }.listing__image img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }.listing:hover .listing__image img { transform: scale(1.03); }.listing__content { padding: 2rem; display: flex; flex-direction: column; gap: 1rem; position: relative; z-index: 2; /* Ensure text sits above if any conflict */ }.listing__badges { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; }.badge { background: #11352f; color: #fff; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; padding: 4px 10px; font-weight: 600; border-radius: 2px; }.listing__location { color: #c19a5b; font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.05em; }.listing__title { font-family: 'Playfair Display', serif; font-size: 1.75rem; color: #11352f; margin: 0; line-height: 1.2; }.listing__quote { font-family: 'DM Sans', sans-serif; font-style: italic; color: #666; font-size: 1rem; line-height: 1.5; }.listing__features { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; }.listing__feature { font-size: 0.85rem; color: #444; background: #f9f9f9; padding: 4px 12px; border-radius: 50px; border: 1px solid #eee; }.listing__footer { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }.listing__price { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: #11352f; font-weight: 600; margin: 0; }.listing__price-note { font-size: 0.8rem; color: #888; display: block; }.link { color: #c19a5b; text-decoration: none; font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; transition: color 0.3s; }.link:hover { color: #11352f; }@media (min-width: 900px) { .listing { /* FIX: repeat(2, minmax(0, 1fr)) prevents columns from blowing out/overlapping */ grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; } .listing__image { height: auto; min-height: 100%; } .listing--reverse .listing__image { order: 1; } .listing--reverse .listing__content { order: 2; } }</style><div class=\"text-center\" style=\"margin-bottom:3rem;\">\n<span class=\"tag\">Eksklusivt</span>\n<h2 class=\"title title--xl title--center\">Aktuelle Skuffesager</h2>\n<p class=\"text text--center max-w-lg mx-auto\">Udvalgte ejendomme der kun udbydes diskret. Kontakt os for yderligere information og fremvisning.</p>\n</div>"
+                    }
+                },
+                {
+                    "id": "component_6b2c376d_01f1_434c_a1a7_0c880edd7af5",
+                    "type": "HtmlComponent",
+                    "width": "100%",
+                    "config": {
+                        "html": "<div class=\"listing-group\">\n\n\n<div class=\"listing\">\n<div class=\"listing__content\">\n<div class=\"listing__badges\">\n<span class=\"badge\">Licitation</span>\n<span class=\"listing__location\">København V</span>\n</div>\n<h3 class=\"listing__title\">Selvstændigt baghus</h3>\n<p class=\"listing__quote\">\"En lille perle på en super beliggenhed. Perfekt til konvertering.\"</p>\n<div class=\"listing__features\">\n<div class=\"listing__feature\">Ca. 110 m²</div>\n<div class=\"listing__feature\">Renoveringsprojekt</div>\n<div class=\"listing__feature\">Central Beliggenhed</div>\n</div>\n<div class=\"listing__footer\">\n<p class=\"listing__price\">Pris + 5 mio. kr.</p>\n<a href=\"/kontakt-os\" class=\"link\">Hør mere om sagen</a>\n</div>\n</div>\n<div class=\"listing__image\">\n<img src=\"https://mediaserver.prod.realequity.dk/images/8a635a2a-fc80-472c-8bc7-bc6bfe1e26f0/baghus-Large/lg\" alt=\"Baghus København V\" />\n</div>\n</div>\n\n\n<!--<div class=\"listing listing--reverse\">\n<div class=\"listing__content\">\n<div class=\"listing__badges\">\n<span class=\"badge\" style=\"background:#c19a5b;\">Solgt / Handlet</span>\n<span class=\"listing__location\">København V</span>\n</div>\n<h3 class=\"listing__title\">Øverste 2 etager i baghus</h3>\n<p class=\"listing__quote\">\"Hele baghuset er gennemrenoveret og istandsat. Stor altan og egen parkering.\"</p>\n<div class=\"listing__features\">\n<div class=\"listing__feature\">+170 m² bolig</div>\n<div class=\"listing__feature\">Stor privat altan</div>\n<div class=\"listing__feature\">P-plads (Lejet)</div>\n<div class=\"listing__feature\">Totalrenoveret</div>\n</div>\n<div class=\"listing__footer\">\n<p class=\"listing__price\">14 mio. kr.</p>\n<a href=\"/kontakt-os\" class=\"link\">Hør mere om sagen</a>\n</div>\n</div>\n<div class=\"listing__image\">\n<img src=\"https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop\" alt=\"København V Renoveret\" />\n</div>\n</div>-->\n\n\n<div class=\"listing\">\n<div class=\"listing__content\">\n<div class=\"listing__badges\">\n<span class=\"badge\">Fredet</span>\n<span class=\"listing__location\">København K</span>\n</div>\n<h3 class=\"listing__title\">Unikt konverteringsprojekt</h3>\n<p class=\"listing__quote\">\"4 lejligheder i fredet ejendom. Mulighed for sammenlægning til 1 eller 2 store enheder.\"</p>\n<div class=\"listing__features\">\n<div class=\"listing__feature\">Ialt 284 m²</div>\n<div class=\"listing__feature\">Charmerende gårdanlæg</div>\n<div class=\"listing__feature\">Blandet bolig/erhverv</div>\n<div class=\"listing__feature\">4 min til Metro</div>\n</div>\n<div class=\"listing__footer\">\n<div>\n<p class=\"listing__price\">10 mio. kr.</p>\n<span class=\"listing__price-note\">ca. 35.000 kr./m²</span>\n</div>\n<a href=\"/kontakt-os\" class=\"link\">Hør mere om sagen</a>\n</div>\n</div>\n<div class=\"listing__image\">\n<img src=\"https://mediaserver.prod.realequity.dk/images/5be66dfb-36a7-4493-bc2e-34b0de4ac095/livingrooom/lg\" alt=\"København K Fredet\" />\n</div>\n</div>\n\n\n<div class=\"listing listing--reverse\">\n<div class=\"listing__content\">\n<div class=\"listing__badges\">\n<span class=\"listing__location listing__location--first\">København V</span>\n</div>\n<h3 class=\"listing__title\">Penthouse m. privat tagterrasse</h3>\n<p class=\"listing__quote\">\"Fuldstændig istandsat penthouse i markant ejendom med elevator. Overvældende stilhed på toppen.\"</p>\n<div class=\"listing__features\">\n<div class=\"listing__feature\">+140 m² bolig</div>\n<div class=\"listing__feature\">45 m² privat tagterrasse</div>\n<div class=\"listing__feature\">Elevator &amp; Parkering</div>\n<div class=\"listing__feature\">Ugenert</div>\n</div>\n<div class=\"listing__footer\">\n<p class=\"listing__price\">17,5 mio. kr.</p>\n<a href=\"/kontakt-os\" class=\"link\">Hør mere om sagen</a>\n</div>\n</div>\n<div class=\"listing__image\">\n<img src=\"https://mediaserver.prod.realequity.dk/images/80fb6cec-3f2e-4ed1-b4f1-200ddcbce704/penthouse Large/lg\" alt=\"Penthouse København V\" />\n</div>\n</div>\n\n\n<div class=\"listing\">\n<div class=\"listing__content\">\n<div class=\"listing__badges\">\n<span class=\"listing__location listing__location--first\">Nykøbing Sjælland</span>\n</div>\n<h3 class=\"listing__title\">Rummelig familievilla</h3>\n<p class=\"listing__quote\">\"Diskret udbud – en bolig hvor plads, kvalitet og beliggenhed går op i en højere enhed.\"</p>\n<div class=\"listing__features\">\n<div class=\"listing__feature\">211 m² bolig</div>\n<div class=\"listing__feature\">1.750 m² grund</div>\n<div class=\"listing__feature\">5 værelser</div>\n<div class=\"listing__feature\">80 m² træterrasse</div>\n</div>\n<div class=\"listing__footer\">\n<p class=\"listing__price\">3,195 mio. kr.</p>\n<a href=\"/kontakt-os\" class=\"link\">Hør mere om sagen</a>\n</div>\n</div>\n<div class=\"listing__image\">\n<img src=\"https://mediaserver.prod.realequity.dk/images/48f2d113-28af-43d0-90d6-6e6ee6dbd4c5/interioe/lg\" alt=\"Villa Nykøbing Sjælland\" />\n</div>\n</div>\n\n</div>"
+                    }
+                }
+            ],
+            "id": "component_e27bbe64_a4d4_45f4_9f78_cadbd76aeab2",
+            "bgImage": ""
+        }
+    },
+    "ui": {
+        "width": "lg",
+        "justify": "center",
+        "height": "none",
+        "margin": "xl none",
+        "bgImage": ""
+    },
+    "id": "section_00b693e8_4480_4009_8b87_36cb00d04946"
+}

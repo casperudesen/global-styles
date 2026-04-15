@@ -1,0 +1,157 @@
+{
+    "metadata": {
+        "id": "gentofte_neighborhoods_aligned",
+        "title": "Gentofte Områder (Aligned Fix)",
+        "description": "Grid med Gentoftes kvarterer.",
+        "searchString": "hellerup charlottenlund ordrup klampenborg gentofte dyssegård",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Områder i Gentofte",
+    "priority": "3",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "direction": "vertical",
+            "gap": "lg",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "id": "component_a80088ce_8e21_42ab_9e42_18e63bc77f25",
+                    "config": {
+                        "html": "<style>    section.gentofte-native {        background-color: #11352f !important;        width: 100vw !important;        margin-left: calc(50% - 50vw) !important;        margin-right: calc(50% - 50vw) !important;        padding: 5rem 0 !important;        position: relative !important;        z-index: 1 !important;    }    section.gentofte-native .max-w-screen-xl { max-width: 100% !important; width: 100% !important; padding: 0 !important; margin: 0 !important; }    section.gentofte-native .homepage-section-rounded > div { max-width: 80rem !important; margin: 0 auto !important; padding: 0 1.5rem !important; width: 100% !important; display: block !important; }    section.gentofte-native .homepage-section-rounded > div > div:nth-child(2) { text-align: center; max-width: 56rem; margin: 0 auto 3rem auto !important; width: 100% !important; }    section.gentofte-native .homepage-section-rounded > div > div:nth-child(3) > div { display: grid !important; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important; gap: 1.5rem !important; width: 100% !important; align-items: stretch !important; }    section.gentofte-native .homepage-section-rounded > div > div:nth-child(3) > div > div > div { background: rgba(255, 255, 255, 0.04) !important; border: 1px solid rgba(255, 255, 255, 0.12) !important; padding: 2rem !important; height: 100% !important; display: flex !important; flex-direction: column !important; justify-content: flex-start !important; align-items: flex-start !important; transition: background 0.3s ease !important; border-radius: 0 !important; }    section.gentofte-native .homepage-section-rounded > div > div:nth-child(3) > div > div > div:hover { background: rgba(255, 255, 255, 0.08) !important; border-color: rgba(255, 255, 255, 0.25) !important; }    section.gentofte-native h2 { color: #ffffff !important; font-family: 'Playfair Display', serif !important; font-size: clamp(2.25rem, 3vw, 3.25rem) !important; margin-bottom: 1.5rem !important; }    section.gentofte-native p { color: rgba(255, 255, 255, 0.8) !important; font-family: 'DM Sans', sans-serif !important; line-height: 1.7 !important; text-align: left !important; }    section.gentofte-native h3 { color: #c19a5b !important; font-family: 'Playfair Display', serif !important; font-size: 1.25rem !important; margin-bottom: 0.75rem !important; text-align: left !important; }</style><script>try { document.currentScript.closest('section').classList.add('gentofte-native'); } catch(e) {}</script>"
+                    }
+                },
+                {
+                    "type": "FlowComponent",
+                    "id": "component_d5632c9b_1455_49d2_ae4e_a7fa6319647f",
+                    "direction": "vertical",
+                    "gap": "none",
+                    "items": [
+                        {
+                            "type": "TypographyComponent",
+                            "config": {
+                                "text": "<p style='color:#c19a5b;font-weight:bold;letter-spacing:1px;font-size:0.85rem;text-transform:uppercase;'>KVARTERER</p>"
+                            },
+                            "id": "component_a8245e97_a124_4f0d_8874_b77a1a5a94ea"
+                        },
+                        {
+                            "type": "TypographyComponent",
+                            "config": {
+                                "text": "<h2>En kommune med karakter</h2>"
+                            },
+                            "id": "component_6ae265a3_ecd5_4ce3_be28_2c16c645d26c"
+                        },
+                        {
+                            "type": "TypographyComponent",
+                            "config": {
+                                "text": "<p><br ></p><p>Fra Strandvejens liebhaveri til Dyssegårds hyggelige villaveje – hver bydel har sin helt egen identitet.</p>",
+                                "title": "Fra Strandvejens liebhaveri ti..."
+                            },
+                            "id": "component_fa8a0042_710b_4678_9ef1_1e5a7a2abc26"
+                        }
+                    ]
+                },
+                {
+                    "type": "FlowComponent",
+                    "id": "component_6dd3b9a3_f3b3_4749_af52_b80271884d63",
+                    "direction": "horizontal",
+                    "gap": "none",
+                    "items": [
+                        {
+                            "type": "FlowComponent",
+                            "direction": "vertical",
+                            "items": [
+                                {
+                                    "type": "TypographyComponent",
+                                    "config": {
+                                        "text": "<h3>Hellerup & Strand</h3>"
+                                    },
+                                    "id": "component_52b02fdd_7348_4cd8_a161_65c6d4415e1d"
+                                },
+                                {
+                                    "type": "TypographyComponent",
+                                    "config": {
+                                        "text": "<p>Eksklusivitet og stil tæt på Øresund. Her forenes mondæne liebhavervillaer med et rigt caféliv og grønne åndehuller.</p>"
+                                    },
+                                    "id": "component_07b40581_542f_4cf3_ad4c_1d905625ca57"
+                                }
+                            ],
+                            "id": "component_81633d47_267d_4131_9e3d_2817596e3b7b"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "direction": "vertical",
+                            "items": [
+                                {
+                                    "type": "TypographyComponent",
+                                    "config": {
+                                        "text": "<h3>Charlottenlund</h3>"
+                                    },
+                                    "id": "component_726de614_874e_45ba_8a87_4df44887878a"
+                                },
+                                {
+                                    "type": "TypographyComponent",
+                                    "config": {
+                                        "text": "<p>Slotspark, strand og mondæn stemning. Et perfekt match for dem, der ønsker ro, stil og kulturel dybde.</p>"
+                                    },
+                                    "id": "component_dfb9a6c7_5eaa_4d7e_921a_b4427107062c"
+                                }
+                            ],
+                            "id": "component_96c54643_48bf_4461_971a_34b874a42aa2"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "direction": "vertical",
+                            "items": [
+                                {
+                                    "type": "TypographyComponent",
+                                    "config": {
+                                        "text": "<h3>Ordrup & Klampenborg</h3>"
+                                    },
+                                    "id": "component_4ad47b08_2d95_4fa3_9bce_dc3e048dcc3d"
+                                },
+                                {
+                                    "type": "TypographyComponent",
+                                    "config": {
+                                        "text": "<p>Porten til Dyrehaven og funktionalistisk arkitektur. Familieidyl med højt til himlen og Danmarks smukkeste natur.</p>"
+                                    },
+                                    "id": "component_49fe97a3_695a_4e4c_8bdd_c72e4517a918"
+                                }
+                            ],
+                            "id": "component_b5b4360d_b589_469a_91a5_e2d5bc7a84fb"
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "direction": "vertical",
+                            "items": [
+                                {
+                                    "type": "TypographyComponent",
+                                    "config": {
+                                        "text": "<h3>Gentofte & Dyssegård</h3>"
+                                    },
+                                    "id": "component_57e756b6_2515_48cc_8512_a76dcc04b66e"
+                                },
+                                {
+                                    "type": "TypographyComponent",
+                                    "config": {
+                                        "text": "<p>Smukke søer og trygge kvarterer. Velordnede lokalsamfund ideelle for børnefamilier tæt på byens puls.</p>"
+                                    },
+                                    "id": "component_f1c91793_65b9_4ac6_8ff6_71a448d9911a"
+                                }
+                            ],
+                            "id": "component_a82787d5_64de_4c54_b52b_2d36631941ca"
+                        }
+                    ]
+                }
+            ],
+            "id": "component_2ad87948_71b7_49c3_9411_e4162426e2b7"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "padding": "none",
+        "bgColor": "transparent"
+    },
+    "id": "section_c968b8e8_0fcd_4f8d_bfe1_524671585284"
+}

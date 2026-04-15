@@ -1,0 +1,78 @@
+{
+    "metadata": {
+        "id": "diskret_benefits",
+        "title": "Fordele Sektion",
+        "description": "Tre kort med fordele",
+        "searchString": "fordele benefits",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Fordele",
+    "priority": "3",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "xl",
+            "width": "100%",
+            "padding": "xl",
+            "items": [
+                {
+                    "id": "component_be69e01a_5ee3_4fd1_92d2_3240d993fddc",
+                    "type": "HtmlComponent",
+                    "width": "100%",
+                    "config": {
+                        "html": "<div class=\"text-center\">\n<span class=\"tag\">Fordele</span>\n<h2 class=\"title title--lg title--center\">Hvorfor vælge et stille salg?</h2>\n<p class=\"text text--center max-w-xl mx-auto\">For mange af vores kunder handler det om privatliv og eksklusivitet. Vi skræddersyr processen, så den passer til din livssituation.</p>\n</div>"
+                    }
+                },
+                {
+                    "id": "component_3769b7bd_d58f_4643_844a_c9ca2ec283ec",
+                    "type": "GridComponent",
+                    "items": [
+                        {
+                            "id": "component_d9e6c3f7_87cd_466a_bcde_3da2b8bf8e94",
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<div class=\"card\">\n<div class=\"card__icon\"><svg fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z\"></path></svg></div>\n<h3 class=\"card__title\">Privatlivets Fred</h3>\n<p class=\"card__text\">Undgå nysgerrige blikke. Din bolig bliver ikke udstillet på nettet, og dine naboer behøver ikke vide, at du overvejer at flytte, før aftalen er underskrevet.</p>\n</div>"
+                            }
+                        },
+                        {
+                            "id": "component_eab14984_7573_49a0_9795_6f0d79e08e08",
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<div class=\"card\">\n<div class=\"card__icon\"><svg fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z\"></path></svg></div>\n<h3 class=\"card__title\">Eksklusivt Køberkartotek</h3>\n<p class=\"card__text\">Vi har kontakt til kapitalstærke købere, der aktivt søger boliger i København og Nordsjælland, men som ikke nødvendigvis kigger på de åbne portaler.</p>\n</div>"
+                            }
+                        },
+                        {
+                            "id": "component_71459dfd_6b8f_4ec8_8007_8b95d9166d5b",
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<div class=\"card\">\n<div class=\"card__icon\"><svg fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M13 7h8m0 0v8m0-8l-8 8-4-4-6 6\"></path></svg></div>\n<h3 class=\"card__title\">Ingen Liggetid</h3>\n<p class=\"card__text\">Hvis boligen ikke bliver solgt i første omgang, efterlades der ingen offentlig historik om \"liggetid\" eller prisjusteringer. Du kan altid skifte strategi senere.</p>\n</div>"
+                            }
+                        }
+                    ],
+                    "height": "auto",
+                    "width": "100%",
+                    "config": {
+                        "cols": "1 | 3",
+                        "gap": "lg",
+                        "width": "100%"
+                    }
+                }
+            ],
+            "id": "component_0a56454d_f96c_4f0f_969a_8b40a295ecf2"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "center",
+        "height": "none",
+        "margin": "none"
+    },
+    "bgColor": "#f5f5f0",
+    "id": "section_0dd2e865_a544_410d_985f_df1a99be2b76"
+}

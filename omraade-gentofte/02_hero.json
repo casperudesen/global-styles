@@ -1,0 +1,90 @@
+{
+    "metadata": {
+        "id": "gentofte_hero",
+        "title": "Hero Section",
+        "description": "Hero for Gentofte Kommune",
+        "searchString": "hero gentofte",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Hero",
+    "priority": "1",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "lg | lg",
+            "padding": "none md | md",
+            "width": "100%",
+            "height": "100%",
+            "items": [
+                {
+                    "type": "FlowComponent",
+                    "id": "component_a13ae662_8f69_4cb5_aeda_8c45ca6c9019",
+                    "align": {
+                        "vertical": "center",
+                        "horizontal": "center"
+                    },
+                    "direction": "vertical",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "id": "component_b2dd6729_38df_4e80_a2e7_3cdf74f11d9f",
+                            "config": {
+                                "html": "<span class=\"tag\">Nordsjælland</span>"
+                            }
+                        },
+                        {
+                            "type": "TypographyComponent",
+                            "justify": "center",
+                            "config": {
+                                "align": "center",
+                                "size": "4xl",
+                                "textColor": "",
+                                "text": "<h1 class=\"hero-title\">Gentofte Kommune</h1>",
+                                "title": "Gentofte Kommune"
+                            },
+                            "id": "component_fc5831ca_70d3_4e3a_a0b1_644477a9e4e3"
+                        },
+                        {
+                            "type": "TypographyComponent",
+                            "justify": "center",
+                            "config": {
+                                "align": "center",
+                                "size": "lg",
+                                "textColor": "",
+                                "text": "<p class=\"hero-subtitle\">Grønne værdier, klassiske villaer og eksklusiv livsstil. Indbegrebet af ro, kvalitet og høj livskvalitet.</p>",
+                                "title": "Grønne værdier..."
+                            },
+                            "id": "component_1a2a3c4d_4d3b_4350_95d5_0fc1c5b93c17"
+                        }
+                    ]
+                },
+                {
+                    "type": "HtmlComponent",
+                    "id": "component_7f81c1bd_0901_4035_8340_fcf6f082b5ab",
+                    "config": {
+                        "html": "<div class=\"hero-buttons\"><a href=\"#Bestil-salgsvurdering\" class=\"hero-btn hero-btn--primary\">Bestil salgsvurdering</a></div>"
+                    }
+                }
+            ],
+            "id": "component_3b7abbb4_fccf_4089_9064_e1598fada059"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "justify": "center",
+        "height": "80vh",
+        "bgColor": "transparent",
+        "bgImage": "https://mediaserver.prod.realequity.dk/images/10123d92-ea2a-403c-b70f-fa8335d5e5f5/Brønshøj.jpg/xl",
+        "bgSize": "cover",
+        "customClass": "hero-image-bang",
+        "padding": "none",
+        "margin": "none"
+    },
+    "id": "section_a90f2c04_729c_416a_be00_2cb20a54c3d3"
+}

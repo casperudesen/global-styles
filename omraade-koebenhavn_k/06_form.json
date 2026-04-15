@@ -1,0 +1,96 @@
+{
+    "metadata": {
+        "id": "kbhk_valuation",
+        "title": "København K Vurdering",
+        "description": "CTA og formularlayout til bestilling af vurdering i København K",
+        "searchString": "københavn k bestil vurdering",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Bestil vurdering i København K",
+    "priority": "5",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "start"
+            },
+            "direction": "vertical | horizontal",
+            "gap": "xl | 2xl",
+            "items": [
+                {
+                    "type": "FlowComponent",
+                    "align": {
+                        "vertical": "start",
+                        "horizontal": "start"
+                    },
+                    "direction": "vertical",
+                    "gap": "lg",
+                    "width": "100% | 45%",
+                    "padding": "none",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<div class=\"mobile-text-pad\"><div><span class=\"section-label\">EKSPERTISE</span><h2 class=\"section-title\">Skal du købe eller sælge i City</h2></div></div>"
+                            },
+                            "id": "component_4355fd2c_e9b0_4d25_9651_60bf65055f88"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<div class=\"mobile-text-pad\"><div class=\"text\"><p>Hos Falch &amp; Bai Ejendomsmægler får du en erfaren rådgiver med dybt kendskab til København K og boligtyperne i området. Jeg har selv arbejdet i området gennem mange år og ved præcis, hvad det kræver at få en handel sikkert og godt i mål, uanset om du skal købe eller sælge.</p><p class=\"text--italic\" style=\"font-family:var(--f-serif);font-size:1.25rem;color:var(--c-primary);margin-top:1rem;\">Kontakt mig for en uforpligtende vurdering eller en snak om dine boligdrømme i hjertet af København.</p></div></div>"
+                            },
+                            "id": "component_1be72737_62c6_4dea_a2ad_d9446368aa1f"
+                        }
+                    ],
+                    "id": "component_47a451da_12e7_4e25_a286_a296c9f30514"
+                },
+                {
+                    "type": "FlowComponent",
+                    "align": {
+                        "vertical": "start",
+                        "horizontal": "start"
+                    },
+                    "direction": "vertical",
+                    "gap": "md",
+                    "width": "100% | 55%",
+                    "height": "auto",
+                    "padding": "lg",
+                    "rounded": "sm",
+                    "bgColor": "#ffffff",
+                    "customClass": "form-card-container",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<h3 id=\"Bestil-salgsvurdering\" class=\"form-card__title\">Udfyld formularen</h3>"
+                            },
+                            "id": "component_92ea5943_1a2b_4028_afee_eb0497cae906"
+                        },
+                        {
+                            "type": "AssessmentForm",
+                            "height": "100%",
+                            "width": "100%",
+                            "config": {
+                                "resourceGroupId": "6c7b0478-343b-41ae-9cd5-420fe17c1da9",
+                                "confirmTitle": "Tak for din henvendelse",
+                                "confirmDescription": "Vi bestræber os på at vende tilbage så hurtigt som muligt. Ellers kan vi kontaktes på:"
+                            },
+                            "id": "component_4a4eaabc_c807_4fd3_a690_569b27483700"
+                        }
+                    ],
+                    "id": "component_ee3e89bb_799d_4ff4_87bd_a3ef1bdd49bf"
+                }
+            ],
+            "id": "component_7d84de0f_fe7f_47d1_a281_bdc2cb19fdf4"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "padding": "xl none | 2xl none",
+        "bgColor": "#f5f5f0"
+    },
+    "id": "section_0d6bd648_ef9c_4980_a180_42431022d769"
+}

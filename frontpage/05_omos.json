@@ -1,0 +1,116 @@
+{
+    "id": "section_dad2dcf1_1934_40d3_9a3a_22fce9249c51",
+    "type": "DynamicSectionComponent",
+    "title": "Om os - Tekst og CTA",
+    "priority": "4",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "start"
+            },
+            "direction": "vertical",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "id": "component_df784e0d_8ff5_4a67_8645_588856c7c2ba",
+                    "config": {
+                        "html": "<style>@media (max-width: 1023px) { /* 1. Find den horisontale wrapper og flip den */ [data-type*='FlowComponent#horizontal'], .flex-row { flex-direction: column-reverse !important; display: flex !important; width: 100% !important; gap: 30px !important; } /* 2. Find tekst-containeren (den med Typography i) og giv den padding */ div:has(> [id*='component_bab539cc']), div:has(> [id*='comp_om_os']), .tim-text { padding: 0 1.5rem !important; width: 100% !important; box-sizing: border-box !important; } /* 3. Find billed-containeren og fjern ALT padding så den er flush */ div:has(> [id*='component_99950cc0']), .tim-image { padding: 0 !important; width: 100% !important; margin: 0 !important; } img { width: 100% !important; height: auto !important; display: block !important; } }</style>"
+                    }
+                },
+                {
+                    "type": "FlowComponent",
+                    "id": "component_37dd7638_89f0_4699_8828_2ab5d206d3d3",
+                    "align": {
+                        "vertical": "center",
+                        "horizontal": "start"
+                    },
+                    "direction": "vertical | horizontal",
+                    "gap": "md | lg",
+                    "width": "100%",
+                    "height": "100%",
+                    "items": [
+                        {
+                            "type": "FlowComponent",
+                            "id": "component_5ccd68b3_df54_40dd_ba11_37e0f0c83a91",
+                            "align": {
+                                "vertical": "start",
+                                "horizontal": "start"
+                            },
+                            "width": "100% | 45%",
+                            "items": [
+                                {
+                                    "type": "ImageComponent",
+                                    "id": "component_983907e1_cd8b_4496_838d_289578bd4381",
+                                    "config": {
+                                        "height": "100%",
+                                        "objectFit": "cover",
+                                        "url": "https://mediaserver.prod.realequity.dk/images/7f921985-e07e-40b0-9ad8-58a6c20fcabc/omos/original",
+                                        "width": "100%",
+                                        "aspectRatio": "3/4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "FlowComponent",
+                            "id": "component_fcca2ef4_982e_486b_8374_787c3359bd70",
+                            "align": {
+                                "vertical": "center",
+                                "horizontal": "start"
+                            },
+                            "direction": "vertical",
+                            "gap": "md",
+                            "width": "100% | 55%",
+                            "items": [
+                                {
+                                    "type": "TypographyComponent",
+                                    "id": "component_44fcb0a8_d955_4c38_a044_0d6db74763fe",
+                                    "config": {
+                                        "text": "<span class='section-label'>OM OS</span>",
+                                        "size": "md",
+                                        "textColor": "var(--page-text-color)"
+                                    }
+                                },
+                                {
+                                    "type": "TypographyComponent",
+                                    "id": "component_58597948_7335_4f58_80b4_f73d81d049c2",
+                                    "config": {
+                                        "text": "<h2 class='section-title'>Trygt og professionelt<br>fra start til slut</h2>",
+                                        "size": "2xl",
+                                        "textColor": "var(--page-text-color)"
+                                    }
+                                },
+                                {
+                                    "type": "TypographyComponent",
+                                    "id": "component_fc3d2f1c_34dc_4790_8698_a60bab7ef13c",
+                                    "config": {
+                                        "text": "<p class='section-body'>Steffen Falch &amp; Jannik Bai kender hinanden gennem fælles bekendte i ejendomsbranchen. Vi har fundet fælles fodslag i vores passion, nemlig ejendomme.</p>",
+                                        "size": "md",
+                                        "textColor": "var(--page-text-color)"
+                                    }
+                                },
+                                {
+                                    "type": "TypographyComponent",
+                                    "id": "component_7a4c9afd_13b1_4ceb_9d13_7f0bf799224d",
+                                    "config": {
+                                        "text": "<p class='section-body'>Med over 30 års samlet erfaring tilbyder vi enestående indsigt i markedet i København og Nordsjælland. Vi kombinerer klassiske dyder med moderne salgsmetoder for at sikre dig det bedste resultat.</p>",
+                                        "size": "md",
+                                        "textColor": "var(--page-text-color)"
+                                    }
+                                }
+                            ],
+                            "padding": "none lg | none"
+                        }
+                    ]
+                }
+            ],
+            "id": "component_f4ae298a_5f1a_400d_b254_746b1e4daf2c"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "margin": "none none xl none | xl none"
+    }
+}

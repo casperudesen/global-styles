@@ -1,0 +1,45 @@
+{
+    "metadata": {
+        "id": "valby_hero",
+        "title": "Hero Section",
+        "description": "Hero med baggrundsbillede for Valby",
+        "searchString": "hero valby",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Hero",
+    "priority": "1",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "width": "100%",
+            "height": "100%",
+            "bgImage": "https://mediaserver.prod.realequity.dk/images/d8f47938-3d52-42f2-a236-7a4e95959609/valby grøntorvsparken.jpg/original",
+            "items": [
+                {
+                    "id": "component_32078479_0df0_488e_b9a1_4fb03e0d3cac",
+                    "type": "HtmlComponent",
+                    "width": "100%",
+                    "height": "100%",
+                    "config": {
+                        "html": "<div class=\"hero\"><div class=\"hero__content\"><span class=\"tag\">København</span><h1 class=\"hero__title\">Valby</h1><p class=\"hero__subtitle\">Grønne villakvarterer og ny byudvikling i balance. En bydel med sine helt egne farver, traditioner og kvaliteter.</p><div class=\"btn-group btn-group--center\"><a href=\"#Bestil-salgsvurdering\" class=\"btn btn--primary\">Bestil Diskret Vurdering</a></div></div></div>"
+                    }
+                }
+            ],
+            "id": "component_7e13ed16_e6ca_451d_8d1c_cb3aba53b147"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "center",
+        "height": "80vh",
+        "margin": "none"
+    },
+    "id": "section_50c74564_226d_4ad4_b169_80c074896a1c"
+}

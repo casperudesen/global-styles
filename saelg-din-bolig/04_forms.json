@@ -1,0 +1,99 @@
+{
+    "type": "DynamicSectionComponent",
+    "title": "Formular Sektion",
+    "priority": "3",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "start"
+            },
+            "direction": "vertical | horizontal",
+            "gap": "xl | 2xl",
+            "width": "100%",
+            "items": [
+                {
+                    "type": "FlowComponent",
+                    "align": {
+                        "vertical": "start",
+                        "horizontal": "start"
+                    },
+                    "direction": "vertical",
+                    "gap": "lg",
+                    "width": "100% | 45%",
+                    "padding": "none",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<div>\n  <span class=\"tag\">Vurdering</span>\n  <h2 class=\"title title--lg\">Bestil en salgsvurdering</h2>\n</div>"
+                            },
+                            "id": "component_def11898_6fdd_48c7_896c_c1bfb87b5922"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<div class=\"text\">\n  <p>Går du med salgstanker? Eller vil du vide om det er det rigtige tidspunkt at sælge din bolig?</p>\n  <p>Vi tilbyder en salgsvurdering hvor vi tager udgangspunkt i Jeres situation. Vi gennemgår boligen sammen, taler om markedet i netop jeres område, og lægger en plan, der matcher jeres ønsker og behov.</p>\n</div>"
+                            },
+                            "id": "component_fb0bad33_058d_4903_a01a_eedb75dee119"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<div class=\"usp-box\">\n  <h3 class=\"usp-box__title\">Hvorfor vælge Falch & Bai?</h3>\n  <ul class=\"usp-list\">\n    <li class=\"usp-list__item\">\n      <svg class=\"usp-list__icon\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"></path></svg>\n      <span>30 års lokal erfaring i København & Nordsjælland</span>\n    </li>\n    <li class=\"usp-list__item\">\n      <svg class=\"usp-list__icon\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"></path></svg>\n      <span>Personligt engagement fra start til slut</span>\n    </li>\n    <li class=\"usp-list__item\">\n      <svg class=\"usp-list__icon\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"></path></svg>\n      <span>Adgang til eksklusivt køberkartotek</span>\n    </li>\n  </ul>\n</div>"
+                            },
+                            "id": "component_7ae2c96c_6aef_4664_bb37_c18a93a980a4"
+                        }
+                    ],
+                    "id": "component_ac57e5c4_2149_4fe0_9ac9_afdbc1014b98"
+                },
+                {
+                    "type": "FlowComponent",
+                    "align": {
+                        "vertical": "start",
+                        "horizontal": "start"
+                    },
+                    "direction": "vertical",
+                    "gap": "md",
+                    "width": "100% | 55%",
+                    "height": "auto",
+                    "padding": "lg",
+                    "rounded": "sm",
+                    "bgColor": "#ffffff",
+                    "customClass": "form-card-container",
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<h3 class=\"form-card__title\">Udfyld formularen</h3>"
+                            },
+                            "id": "component_2c5b2166_4c98_4d5e_bee0_66e822363c2b"
+                        },
+                        {
+                            "type": "AssessmentForm",
+                            "config": {
+                                "resourceGroupId": "6c7b0478-343b-41ae-9cd5-420fe17c1da9",
+                                "confirmTitle": "Tak for din henvendelse",
+                                "confirmDescription": "Vi bestræber os på at vende tilbage så hurtigt som muligt. Ellers kan vi kontaktes på:"
+                            },
+                            "height": "100%",
+                            "width": "100%",
+                            "id": "component_08ec6db3_015e_4742_95a9_396726666a68"
+                        }
+                    ],
+                    "id": "component_329e1605_c24e_44bd_86a7_f07ff2ecc113"
+                }
+            ],
+            "id": "component_021d6a6e_606b_46ef_a673_fea8a1799245"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "justify": "center",
+        "height": "",
+        "margin": "xl none | 2xl none",
+        "padding": "none md | "
+    },
+    "id": "section_9d4d61c3_6300_4a23_8637_c2503387db67"
+}

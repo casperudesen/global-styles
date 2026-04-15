@@ -1,0 +1,14 @@
+{
+    "type": "CaseContactSection",
+    "title": "CaseContactSection",
+    "ui": {
+        "padding": "none md md md | lg"
+    },
+    "specifics": {
+        "bgColor": "white",
+        "useResourceGroupPhoneNumber": false,
+        "userResourceGroupEmail": false
+    },
+    "id": "section_77876e96_6ccb_4206_8153_a1805006e70c",
+    "priority": "5"
+}

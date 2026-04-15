@@ -1,0 +1,41 @@
+{
+    "metadata": {
+        "id": "simple_text_header",
+        "title": "Overskrift - CMS version",
+        "description": "Viser en overskrift",
+        "searchString": "Overskrift",
+        "image": "/api/templates/sections/simple_text_header/image",
+        "tags": []
+    },
+    "type": "DynamicSectionComponent",
+    "title": "Overskrift",
+    "priority": "1",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "start",
+                "horizontal": "center"
+            },
+            "direction": "vertical | horizontal",
+            "gap": "md | md",
+            "width": "100%",
+            "items": [
+                {
+                    "id": "component_a3253918_af48_40d8_b501_57460be6115d",
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<style>\n/* 1. SOLGT BADGE: Lille, diskret, hvid tekst til venstre */\n[data-section-type=\"CaseTileGallerySection\"] .absolute.top-0.inset-x-0.bg-white {\n    top: auto !important;\n    bottom: 20px !important;\n    left: 20px !important;\n    right: auto !important;\n    width: auto !important;\n    background-color: #11352f !important;\n    padding: 6px 12px !important;\n    border-radius: 2px !important;\n    z-index: 30 !important;\n    box-shadow: 0 4px 10px rgba(0,0,0,0.2) !important;\n}\n\n[data-section-type=\"CaseTileGallerySection\"] .absolute.bottom-20 span {\n    color: #ffffff !important;\n    font-family: 'DM Sans', sans-serif !important;\n    font-weight: 700 !important;\n    font-size: 10px !important;\n    letter-spacing: 0.15em !important;\n    text-transform: uppercase !important;\n}\n\n/* 2. GALLERI MENU: Flyt til højre, fjern skygge, overskriv position */\n.absolute.flex.-bottom-7.inset-x-0 {\n    bottom: 20px !important; /* Flyt den lidt op ind i billedet eller juster til 0 */\n    justify-content: flex-end !important;\n    padding-right: 20px !important;\n}\n\n.homepage-button-rounded.shadow-lg {\n    box-shadow: none !important;\n    background: transparent !important;\n    gap: 10px !important;\n}\n\n/* 3. GALLERI KNAPPER: Styling og Hover */\n[data-type=\"CtaComponent\"] button {\n    background-color: rgba(255, 255, 255, 0.9) !important;\n    color: #11352f !important;\n    border: 1px solid rgba(17, 53, 47, 0.1) !important;\n    border-radius: 4px !important;\n    padding: 10px 20px !important;\n    font-weight: 700 !important;\n    text-transform: uppercase !important;\n    letter-spacing: 1px !important;\n    font-size: 11px !important;\n    transition: all 0.3s ease !important;\n}\n\n[data-type=\"CtaComponent\"] button:hover {\n    background-color: #11352f !important;\n    color: #ffffff !important;\n    border-color: #11352f !important;\n}\n\n[data-type=\"CtaComponent\"] button svg {\n    transition: color 0.3s ease !important;\n}\n\n[data-type=\"CtaComponent\"] button:hover svg {\n    color: #c19a5b !important;\n}\n.fixed.bottom-4.right-4.z-50{\ndisplay: none;\n}\n</style>"
+                    }
+                }
+            ],
+            "id": "component_0d18d494_a84c_41db_be4a_0715d70243c0"
+        }
+    },
+    "ui": {
+        "width": "none",
+        "justify": "center",
+        "margin": "none"
+    },
+    "id": "section_2828ba48_93cb_42f5_bc8a_84b833c200a6"
+}

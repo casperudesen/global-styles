@@ -1,0 +1,36 @@
+{
+    "type": "DynamicSectionComponent",
+    "title": "Team Narrative",
+    "priority": "3",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "align": {
+                "vertical": "center",
+                "horizontal": "center"
+            },
+            "direction": "vertical",
+            "gap": "none",
+            "width": "100%",
+            "items": [
+                {
+                    "type": "HtmlComponent",
+                    "config": {
+                        "html": "<div class=\"container mx-auto px-6\">\n  <div class=\"grid grid-cols-1 md:grid-cols-2 gap-12 items-center\">\n    \n    <div class=\"relative aspect-[4/5] w-full overflow-hidden shadow-2xl rounded-sm group\">\n      <img alt=\"Steffen Falch & Jannik Bai\" class=\"w-full h-full object-cover object-top md:object-[50%_30%] transition-transform duration-1000 group-hover:scale-105 opacity-90 group-hover:opacity-100\" src=\"https://mediaserver.prod.realequity.dk/images/24a0cef8-e450-4d7d-bae1-a11c2e8b8e51/DSC_8318-steffen-jannik 1.jpeg/original\">\n      <div class=\"absolute inset-0 border border-white/10 pointer-events-none\"></div>\n    </div>\n\n    \n    <div>\n      <span class=\"text-accent uppercase tracking-widest text-sm font-semibold mb-4 block\">Teamet</span>\n      <h2 class=\"text-4xl font-serif text-white mb-6\">Personligt engagement & <br>lokal ekspertise</h2>\n      <p class=\"text-white/70 text-lg leading-relaxed mb-8\">\n        Bag Falch & Bai står Steffen Falch og Jannik Bai. Vi driver en uafhængig mæglerforretning, hvor integritet, flid og ordentlighed er nøgleordene.\n      </p>\n    </div>\n  </div>\n</div>"
+                    },
+                    "id": "component_e5351462_244a_42ba_bc7c_1eb785dbfc99"
+                }
+            ],
+            "id": "component_caa03d92_432c_4682_8b29_0ddfbbaeaae1"
+        }
+    },
+    "ui": {
+        "width": "full",
+        "justify": "center",
+        "height": "",
+        "margin": "none",
+        "bgColor": "#11352f",
+        "padding": "2xl none"
+    },
+    "id": "section_ebb22c1c_b9d3_4d20_b7dc_29bf43ec2bd4"
+}
