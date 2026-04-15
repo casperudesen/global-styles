@@ -1,0 +1,141 @@
+{
+    "metadata": {
+        "id": "section_grid",
+        "title": "Boligtype Grid"
+    },
+    "type": "DynamicSectionComponent",
+    "priority": "3",
+    "specifics": {
+        "rootComponent": {
+            "type": "FlowComponent",
+            "customClass": "mobile-content-pad",
+            "direction": "vertical",
+            "items": [
+                {
+                    "type": "GridComponent",
+                    "customClass": "bolig-grid",
+                    "config": {
+                        "cols": "1 | 3",
+                        "gap": "lg",
+                        "width": "100%"
+                    },
+                    "items": [
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/aff76aab-95c7-4ae2-a788-20743d3d69ed/Murermestervilla.png/md' class='fb-card-img' alt='Murermestervilla'><span class='fb-card-badge'>1910–1940</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Murermestervilla</h3><p class='fb-card-desc'>Klassisk, gedigen og elsket. Bygget i røde eller gule mursten, ofte med halvvalmet tegltag.</p></div></article>"
+                            },
+                            "id": "component_1fc3b44a_56ff_4f00_b7a3_a96ecdd8b406"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/967366db-16db-4417-997f-0c79d25f1a8d/Funkis/md' class='fb-card-img' alt='Funkisvilla'><span class='fb-card-badge'>1930'erne</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Funkisvilla</h3><p class='fb-card-desc'>Skarpe linjer, fladt tag, store vinduespartier og hvidpudsede facader. Inspireret af Bauhaus.</p></div></article>"
+                            },
+                            "id": "component_dad5d05d_8924_4db7_9c6c_70f8ec1e3c92"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/f9fe3c10-d118-4fd0-b567-cdd91ccb07a6/Parcelhus.png/md' class='fb-card-img' alt='Parcelhus'><span class='fb-card-badge'>1950'erne</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Parcelhus</h3><p class='fb-card-desc'>Étplanshuse i mursten, ofte med carport og klassisk 'villavejslayout'. Praktisk og funktionelt.</p></div></article>"
+                            },
+                            "id": "component_79c78e7a_b766_4126_8b95_b444414cd8c7"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/73a8c475-4b50-4e15-9b3b-360dad2e3a3b/Patricia.png/md' class='fb-card-img' alt='Patriciervilla'><span class='fb-card-badge'>1890–1920</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Patriciervilla</h3><p class='fb-card-desc'>Symmetrisk facade, højt til loftet og store vinduer. En boligtype med pondus og historie.</p></div></article>"
+                            },
+                            "id": "component_2b12bcdd_c664_4d9f_9699_a20dae526d7f"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/fa83a2a6-bd49-4e7f-9f44-625bfe3b0ca1/Længehus i H/md' class='fb-card-img' alt='Længehus'><span class='fb-card-badge'>Nybyg</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Længehus</h3><p class='fb-card-desc'>Enkelt og strømlinet layout – typisk étplans med forskudte vinkler og adgang til terrasse.</p></div></article>"
+                            },
+                            "id": "component_0de850e5_fc30_45ae_a548_88669b1ba3eb"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/3dfa93dc-1dfa-49e5-8f46-37217722d1c7/1½ plans villa/md' class='fb-card-img' alt='1½-planshus'><span class='fb-card-badge'>1960'erne</span></div><div class='fb-card-body'><h3 class='fb-card-title'>1½-planshus</h3><p class='fb-card-desc'>Høj stueetage og udnyttet tagetage. God til børnefamilier med behov for opdeling.</p></div></article>"
+                            },
+                            "id": "component_0a750a1a_e7dc_47b5_99ba_a97b5d83c98e"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/b2179c07-e7a3-4555-8370-eba57d72957e/Bindingsværkshus/md' class='fb-card-img' alt='Bindingsværk'><span class='fb-card-badge'>Før 1900</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Bindingsværk</h3><p class='fb-card-desc'>Synlige trækonstruktioner, stråtag og sjæl. For dig der elsker romantisk landsbycharme.</p></div></article>"
+                            },
+                            "id": "component_3b4930ca_8928_415c_b776_f586a6fb614a"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/eb3fb678-a3e7-4f3c-a6ab-835eb66c8181/Rækkehus.png/md' class='fb-card-img' alt='Rækkehus'><span class='fb-card-badge'>1960'erne</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Rækkehuse</h3><p class='fb-card-desc'>Flere huse bygget sammen, ofte med egen have og fælles stisystemer. Økonomisk fornuftigt.</p></div></article>"
+                            },
+                            "id": "component_ded03384_6d21_468d_9ff9_0a885ec3fe94"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/7fa3e99e-8032-4226-b06e-4191443b2dc4/Herskabsvilla.png/md' class='fb-card-img' alt='Herskabsvilla'><span class='fb-card-badge'>1880–1930</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Herskabsvilla</h3><p class='fb-card-desc'>Stor villa i 2–3 plan med høj kælder og store rum. Reference til velstand og status.</p></div></article>"
+                            },
+                            "id": "component_39289330_ded5_4f52_9ab7_82378bd14a64"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/0bb63a2e-2bd3-4333-8b01-f7b1ed5f0b1b/palæejendom/md' class='fb-card-img' alt='Palæejendom'><span class='fb-card-badge'>1700-1900</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Palæejendom</h3><p class='fb-card-desc'>Store ejendomme med herskabelige proportioner. Ofte opdelt i ejerlejligheder i dag.</p></div></article>"
+                            },
+                            "id": "component_e0cd572d_d1c2_4ca9_978b_d18da508a814"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/4db4ffc7-7133-4f7a-ba30-5e5a0b6be20d/Villalejlighed/md' class='fb-card-img' alt='Villalejlighed'><span class='fb-card-badge'>1920–1950</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Villa-lejlighed</h3><p class='fb-card-desc'>Lejlighed i opdelt villa. Villa-fornemmelse og have til en mere tilgængelig pris.</p></div></article>"
+                            },
+                            "id": "component_dee9b35f_dda5_4896_822a_ca63d52d2ecc"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/0af12b41-6724-46cb-999e-5b49fbf22ae3/Teglvilla/md' class='fb-card-img' alt='Teglvilla'><span class='fb-card-badge'>1965–1985</span></div><div class='fb-card-body'><h3 class='fb-card-title'>70'er Teglvilla</h3><p class='fb-card-desc'>Gule mursten, lavt saddeltag, funktionelle planløsninger. Meget bolig for pengene.</p></div></article>"
+                            },
+                            "id": "component_7768bf84_c3af_4cd2_bd1e_866e2ae3507c"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/9f9d9e49-e7f9-4bf3-af24-5b293eec0089/Sommerhus/md' class='fb-card-img' alt='Sommerhus'><span class='fb-card-badge'>1950</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Sommerhus</h3><p class='fb-card-desc'>Træ- eller letbetonhus. Natur, ro og livskvalitet vægter tungere end byens puls.</p></div></article>"
+                            },
+                            "id": "component_48cc386b_5653_4005_a9c5_17ed5611f807"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/d2de30df-195e-4d01-af21-7e367696a913/Dobbelthus/md' class='fb-card-img' alt='Dobbelthus'><span class='fb-card-badge'>1930'erne</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Dobbelthus</h3><p class='fb-card-desc'>To boliger bygget sammen. Hus og have, men ofte med lavere forbrug end fritliggende villa.</p></div></article>"
+                            },
+                            "id": "component_5fb5fe4e_1f87_42ed_80e7_aaa65d374782"
+                        },
+                        {
+                            "type": "HtmlComponent",
+                            "config": {
+                                "html": "<article class='fb-card'><div class='fb-card-img-wrap'><img src='https://mediaserver.prod.realequity.dk/images/bd5b5a09-21c0-4782-835b-9070bcc6ab5e/Bungalow/md' class='fb-card-img' alt='Bungalow'><span class='fb-card-badge'>1920–1950</span></div><div class='fb-card-body'><h3 class='fb-card-title'>Bungalow</h3><p class='fb-card-desc'>Kvadratisk grundplan, høj kælder, pyramidetag. Solid og funktionel.</p></div></article>"
+                            },
+                            "id": "component_222d496d_136b_4f3b_97ba_2ce838fa2ab0"
+                        }
+                    ],
+                    "id": "component_5c3ee3aa_aed4_4cf4_9677_542c57d26c5a"
+                }
+            ],
+            "id": "component_f80acedf_9e38_4ace_8d4f_90775268fd2e"
+        }
+    },
+    "ui": {
+        "width": "xl",
+        "justify": "center",
+        "margin": "none none 2xl none"
+    },
+    "id": "section_05e85180_5537_44ba_b401_dd76dd986d95"
+}
