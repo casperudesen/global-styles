@@ -194,6 +194,49 @@ body .flex.flex-col.pt-\[var\(--heightMobile\)\] {
     font-size: 1.0625rem;
     line-height: 1.7;
 }
+ /* Area intro block — centered header on dark bg sections */
+  .area-intro-block {
+      text-align: center;
+      max-width: 48rem;
+      margin: 0 auto;
+  }
+
+  /* Section title white modifier */
+  .section-title--white {
+      color: var(--c-white);
+  }
+
+  /* Muted intro paragraph on dark bg */
+  .section-intro-text {
+      font-family: var(--f-sans);
+      font-size: 1.0625rem;
+      color: rgba(255, 255, 255, 0.75);
+      line-height: 1.7;
+      margin: 0;
+  }
+
+  /* Neighborhood cards (glass on dark bg) */
+  .neighborhood-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 2rem;
+      height: 100%;
+  }
+
+  .neighborhood-card__title {
+      font-family: var(--f-serif);
+      font-size: 1.25rem;
+      color: var(--c-accent);
+      margin: 0 0 0.75rem 0;
+  }
+
+  .neighborhood-card__text {
+      font-family: var(--f-sans);
+      font-size: 0.9375rem;
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.7;
+      margin: 0;
+  }
 
 .quote {
     font-family: var(--f-serif);
