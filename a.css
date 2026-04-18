@@ -340,6 +340,7 @@ body .flex.flex-col.pt-\[var\(--heightMobile\)\] {
     color: #ffffff;
 }
 
+
 .hero-btn--secondary:hover {
     border-color: white;
     background: rgba(255, 255, 255, 0.1);
@@ -347,7 +348,8 @@ body .flex.flex-col.pt-\[var\(--heightMobile\)\] {
 }
 
 @media (max-width: 640px) {
-    .hero-btn--secondary { margin-left: 0; margin-top: 15px; }
+   .hero-btn--secondary { margin-left: 0; margin-top: 15px; }
+   .hero-btn { margin-left: 0; margin-top: 15px; }
 }
 
 .btn {
