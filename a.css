@@ -1740,12 +1740,9 @@ button:has(.fa-table-rows) { border-radius: 0.25rem !important; }
     [data-component-type="Card"] > .col-span-1 { padding: 1.5rem !important; }
 }
 
-  /* Gallery open: hide nav on all platforms including iOS Safari */
-  body.fb-gallery-open #fb-nav-container,
-  body.fb-gallery-open #fb-nav-mount,
-  body.fb-gallery-open .fb-nav {
+ body[class*="fb-page-ejendom"].fb-gallery-open #fb-nav-container,
+  body[class*="fb-page-ejendom"].fb-gallery-open .fb-nav {
     display: none !important;
     visibility: hidden !important;
     pointer-events: none !important;
-    opacity: 0 !important;
   }
