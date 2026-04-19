@@ -541,6 +541,10 @@ body .flex.flex-col.pt-\[var\(--heightMobile\)\] {
 
 .fb-nav__icon svg { width: 20px; height: 20px; }
 
+.fb-nav .fb-nav__right .fb-nav__icon[aria-label="Søg"] {
+    display: none;
+}
+
 .fb-nav__hamburger {
     display: flex;
     flex-direction: column;
