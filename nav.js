@@ -4,8 +4,8 @@
   // ============================================
   // VERSION CONTROL - CHANGE ONLY HERE
   // ============================================
-  var VERSION = "v1.0.7";
-  var BASE = "https://cdn.jsdelivr.net/gh/casperudesen/global-styles@v1.0.7";
+  var VERSION = "v1.0.10";
+  var BASE = "https://cdn.jsdelivr.net/gh/casperudesen/global-styles@v.1.0.10";
   var DEBUG = false;
 
   // ============================================
@@ -183,7 +183,8 @@
         container = document.createElement("div");
         container.id = CONTAINER_ID;
         // Append to documentElement — outside React's component tree
-        document.documentElement.appendChild(container);
+        //document.documentElement.appendChild(container);
+        document.body.appendChild(container);
       }
 
       container.innerHTML = html;
