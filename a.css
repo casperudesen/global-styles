@@ -1739,3 +1739,13 @@ button:has(.fa-table-rows) { border-radius: 0.25rem !important; }
     .flex.flex-col.p-4.gap-4 { margin-left: 1rem; margin-right: 1rem; }
     [data-component-type="Card"] > .col-span-1 { padding: 1.5rem !important; }
 }
+
+  /* Gallery open: hide nav on all platforms including iOS Safari */
+  body.fb-gallery-open #fb-nav-container,
+  body.fb-gallery-open #fb-nav-mount,
+  body.fb-gallery-open .fb-nav {
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    opacity: 0 !important;
+  }
