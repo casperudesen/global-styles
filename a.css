@@ -1756,3 +1756,14 @@ button:has(.fa-table-rows) { border-radius: 0.25rem !important; }
     -webkit-transform: translateZ(0) !important;
     transform: translateZ(0) !important;
 }
+
+/* Hide the nav while the property gallery is fullscreen (?fullscreen=true).
+   CSS instead of JS so there is no race: on a direct load the gallery opens
+   before the nav is injected, and the JS gallery monitor never re-locks it.
+   :has() covers that case; the class selectors are the fallback for browsers
+   without :has(). Container can live in <body> (CMS loader) or after it (GTM). */
+html:has([data-section-type="CaseTileGallerySection"] .fixed.inset-0) #fb-nav-container,
+.fb-gallery-open #fb-nav-container,
+.fb-gallery-open ~ #fb-nav-container {
+    display: none !important;
+}
