@@ -1746,3 +1746,13 @@ button:has(.fa-table-rows) { border-radius: 0.25rem !important; }
     visibility: hidden !important;
     pointer-events: none !important;
   }
+
+/* FIX: never push the nav layer far along Z. translateZ(999999px) puts it outside
+   the compositor depth range: Chrome hit tests it but does not paint it, so the
+   mobile menu opened invisibly. translateZ(0) still promotes a layer for Safari. */
+#fb-nav-container,
+#fb-nav-mount,
+.fb-nav {
+    -webkit-transform: translateZ(0) !important;
+    transform: translateZ(0) !important;
+}

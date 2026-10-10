@@ -4,8 +4,8 @@
   // ============================================
   // VERSION CONTROL - CHANGE ONLY HERE
   // ============================================
-  var VERSION = "v1.0.10";
-  var BASE = "https://cdn.jsdelivr.net/gh/casperudesen/global-styles@v.1.0.10";
+  var VERSION = "v1.0.13";
+  var BASE = "https://cdn.jsdelivr.net/gh/casperudesen/global-styles@v1.0.13";
   var DEBUG = false;
 
   // ============================================
@@ -85,7 +85,8 @@
       "  position: fixed !important;",
       "  top: 0; left: 0; right: 0;",
       "  z-index: 999999 !important;",
-      "  -webkit-transform: translateZ(999999px);",
+      "  -webkit-transform: translateZ(0);",
+      "  transform: translateZ(0);",
       "}",
       "",
       "/* Mobile menu open state */",
