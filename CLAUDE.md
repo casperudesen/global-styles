@@ -69,29 +69,25 @@ A `|` separator means `mobile | desktop`:
 
 ## Navigation & Global Styles Architecture
 
-All nav/CSS/JS is driven by **GTM**, not by the `01_navigation.json` files.
+Three moving parts, versioned together by git tag (e.g. `v1.1.0`) on jsDelivr:
 
-### GTM tag: "FB - Global Bootstrapper (Nav & Styles)"
-Single tag that fires on all pages. Controls everything:
-- Injects critical CSS into `<head>` (hides platform nav, resets `--heightMobile` vars)
-- Loads `a.css` from jsDelivr CDN
-- Fetches and injects `nav.html`, appended to `<html>` (outside React's component tree)
-- Hooks History API for SPA route changes
-- Uses `MutationObserver` + `setInterval` to re-inject nav if React removes it
-- Guards against double-mount with `window.fbNavSystemLoaded`
+1. **CMS → Indstillinger → Scripts → "Efter <body>"** (server-rendered, top of body):
+   `snippets/cms-efter-body.html` = `<link>` to `a.css@<version>` (styles in place before first paint)
+   + the loading curtain markup (`#fb-curtain`, lifts by itself after 2s without JS).
+   The CMS "<head>" slot is injected client-side after load, so it is NOT used for CSS.
+2. **GTM tag "FB - Global Bootstrapper (Nav & Styles)"** = `snippets/gtm-bootstrapper.html`
+   (source of truth; paste into GTM). Loaded by Next.js `afterInteractive` (~900ms), so it must not
+   be relied on for first paint. Injects `nav.html` into `#fb-nav-container`, nav behavior, history
+   hooks, page classes/animations, drives the curtain fill/lift. Loads `a.css` only as a fallback.
+   `VERSION` at the top must match the CMS link version.
+3. **`a.css`** starts with the former GTM "critical" CSS (header hiding, nav container, menu-open
+   state), then the full site styles, the gallery overlay rule and the gallery carousel.
 
-**Version:** controlled by `var VERSION = "v1.0.5"` at the top of the GTM tag. Bump this when deploying CDN changes. CDN base: `https://cdn.jsdelivr.net/gh/casperudesen/global-styles@main`.
+Release: commit → `git tag vX.Y.Z` → push tag → bump the CMS link and GTM `VERSION` → publish both.
+Rollback: CMS Scripts slot (toggle off / previous content) and GTM → Versions.
 
-**Rollback:** use GTM → Versions tab to revert to a previous published container version.
-
-### `01_navigation.json` files (all pages)
-Now contain **only a minimal inline guard CSS** (`<style id="fb-nav-guard">`). This fires synchronously during React render to hide the platform's default header before GTM loads — preventing a flash. No JS, no CDN link tags.
-
-### `saelg-din-bolig/02_navigation.json`
-Contains global CSS custom properties and utility classes (brand colors, fonts, button styles, hero/form overrides). Not a nav file — leave as-is.
-
-### `tagmanager.json`
-Exported GTM container for `www.falchbai.dk` (container ID `GTM-5JM9ZBJ6`, account `6326900709`). Edit to add/modify tags, triggers, variables, then re-import via GTM admin UI. The container ID is also referenced in `templates.json` under `googleTagManagerId`.
+Do NOT put `<script>` nav loaders in page `01_navigation.json` HtmlComponents: they only run on full
+page loads (server HTML) and fight the GTM loader. `nav.js` in the repo root is legacy and unused.
 
 ## Key Configuration Values (in `templates.json`)
 

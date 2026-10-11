@@ -1,3 +1,107 @@
+/* ==========================================================================
+   CRITICAL (moved from the GTM bootstrapper in v1.1.0; first in file so the
+   rest of a.css keeps overriding it, same cascade as before)
+   ========================================================================== */
+/* 1. KILLS SYSTEM FORCED PADDING/HEIGHTS */
+:root, body, #root, [style*='--heightMobile'] {
+  --heightMobile: 0px !important;
+  --heightDesktop: 0px !important;
+  --heightMobileVisible: 0px !important;
+  --heightDesktopVisible: 0px !important;
+}
+
+/* 2. NEUTRALIZE TAILWIND PADDING CLASSES */
+.pt-\[var\(--heightMobile\)\], 
+.md\:pt-\[var\(--heightDesktop\)\] {
+  padding-top: 0 !important;
+}
+
+/* Hide RealEquity default header */
+[data-section-type='NavigationComponent'],
+[data-section-type='HeaderComponent'],
+[data-component-type='NavigationComponent'],
+[data-component-type='HeaderComponent'],
+header.fixed.top-0,
+body > div#root > div > header:first-child,
+body > div#root > header:first-child {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Nav container */
+#fb-nav-container, #fb-nav-mount, .fb-nav {
+  position: fixed !important;
+  top: 0; left: 0; right: 0;
+  z-index: 999999 !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+/* Mobile menu open state */
+body.fb-menu-open {
+  overflow: hidden !important;
+  position: fixed !important;
+  width: 100%;
+}
+body.fb-menu-open .fb-nav__mobile {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+body.fb-menu-open .fb-nav {
+  background: var(--c-primary) !important;
+}
+body.fb-menu-open .fb-nav__hamburger span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+body.fb-menu-open .fb-nav__hamburger span:nth-child(2) {
+  opacity: 0; transform: scaleX(0);
+}
+body.fb-menu-open .fb-nav__hamburger span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+body.fb-menu-open .fb-nav__logo,
+body.fb-menu-open .fb-nav__icon {
+  color: #fff !important;
+}
+body.fb-menu-open .fb-nav__logo-svg path {
+  fill: #fff !important;
+}
+body.fb-menu-open .fb-nav__hamburger span {
+  background: #fff !important;
+}
+
+/* Safari tap fix */
+#fb-nav-toggle {
+  cursor: pointer !important;
+  -webkit-tap-highlight-color: transparent;
+  pointer-events: auto !important;
+}
+
+/* Section animations */
+.fb-section-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fb-section-animate.fb-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero animations */
+.hero-title, .hero-subtitle, .hero-buttons {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.hero-title.fb-visible { opacity: 1; transform: translateY(0); }
+.hero-subtitle.fb-visible { opacity: 1; transform: translateY(0); transition-delay: 0.15s; }
+.hero-buttons.fb-visible { opacity: 1; transform: translateY(0); transition-delay: 0.3s; }
+/* ========================= end critical ========================= */
+
 /* ===========================================
    1. GLOBAL VARIABLES & FONTS
    =========================================== */
